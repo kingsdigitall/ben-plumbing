@@ -7,18 +7,20 @@
   "p1Banner": "",
   "p2":"Welcome to Ben Franklin Plumbing, with over 15 years of exceptional service and expertise meet dedication to customer satisfaction. Located in the heart of Connecticut, we specialize in delivering top-tier plumbing solutions for both residential and commercial properties. With a team of licensed, insured, and highly trained professionals, we’re committed to providing prompt, reliable, and affordable services that exceed expectations.<br/><br/>We understand that plumbing issues can disrupt your daily life, which is why our team of licensed and insured experts is dedicated to providing prompt, reliable, and affordable solutions tailored to your needs. Whether it’s a minor repair, a complex installation, or an urgent emergency, you can count on our experienced technicians to deliver seamless service every time. We’re not just about fixing problems; we’re about creating peace of mind by keeping your home or business’s plumbing in peak condition.",
   "h2Image":"plumber-cleaning-clogged-pipe.webp",
+  "missionTitle":"Our Mission, Vision, and Expertise",
+  "missionDescription":"",
   "missionSection":[
     {
       "title": "Our Mission",
-    "description": "At Ben Franklin Plumbing, our mission is simple: to provide unparalleled plumbing services while ensuring 100% customer satisfaction. We aim to solve problems efficiently, deliver top-quality workmanship, and empower our clients with knowledge about maintaining their plumbing systems. Our dedication to transparent communication and fair pricing has made us a trusted name in Connecticut."
+    "description": "At Ben Franklin Plumbers, we deliver exceptional plumbing services with a focus on swift solutions, top-notch workmanship, and customer satisfaction. Transparency and fair pricing are at the heart of everything we do."
     },
     {
       "title": "Our Vision",
-    "description": "We envision a future where every home and business in Connecticut has access to safe, efficient, and modern plumbing systems. By staying ahead of industry innovations and maintaining our commitment to exceptional service, we strive to be the leading plumbing service provider, fostering a community where reliability and expertise are the norm."
+    "description": "We aim to provide every home and business in Connecticut with safe and modern plumbing systems. By embracing innovation and exceptional service, we’re building a community of trust and reliability."
     },
     {
       "title": "Our Expertise",
-    "description": "At Ben Franklin Plumbing, we bring extensive expertise to every job, backed by years of experience and a team of skilled professionals. We handle a full range of plumbing services, from emergency repairs and leak detection to water heater installation and drain cleaning, using advanced tools and industry-best techniques. "
+    "description": "From emergency repairs to water heater installations, our skilled team handles every plumbing need with precision. We combine advanced tools and techniques to ensure quality results and satisfied customers."
     }
   ],
   "areaweserveSection":{

@@ -8,6 +8,7 @@ import { FaCrown } from "react-icons/fa6";
 import Banner from "@/app/components/Home/Banner";
 import contentData from "@/components/Content/about.json"
 import ContactInfo from '@/components/Content/ContactInfo.json'
+import Affordable from "../components/Widgets/Affordable";
 
 
 export const metadata: Metadata = {
@@ -79,7 +80,13 @@ const page = () => {
         </div>
         {/* -----------------------------------------About End------------------------ */}
         {/* Mission */}
-        <div className="md:mx-10 mx-4 mt-6 flex md:flex-row flex-col gap-8 md:px-32 relative  h-full">
+        <Affordable Data={{
+  missionSection: contentData.missionSection,
+  missionTitle: contentData.missionTitle,
+  missionDescription: contentData.missionDescription
+}} />
+
+        {/* <div className="md:mx-10 mx-4 mt-6 flex md:flex-row flex-col gap-8 md:px-32 relative  h-full">
 
 
           <div className="p-4  rounded-lg w-full grid grid-cols-1 md:grid-cols-3 gap-8 ">
@@ -100,7 +107,7 @@ const page = () => {
 
           </div>
 
-        </div>
+        </div> */}
         {/* Mission */}
         {/* -----------------------------------------Conversation ------------------------ */}
         <div className="my-20">
