@@ -10330,5 +10330,579 @@
         "reviews": [],
         "neighbourhoods": "Branford | Madison | Clinton | Killingworth | Durham | North Branford | Northford | North Guilford | Chester | Westbrook.",
         "zipCodes": "6437"
+    },
+    "haddam-ct": {
+        "slug": "haddam-ct",
+        "name": "Haddam",
+        "metaTitle": "Best Plumbing Services in Haddam, CT | Call Now",
+        "metaDescription": "Looking for plumbing services in Haddam, CT? We provide expert repairs, water heater installations, and emergency plumbing. Get in touch today!",
+        "metaCanonical": "",
+        "bannerImage": "banner.jpg",
+        "h1Banner": "Expert Plumbing Services in Haddam, CT",
+        "h2": "Affordable Plumbing Services in Haddam, CT",
+        "p2": "At Ben Franklin Plumbing, we've been proudly serving the residents and businesses of Haddam, CT, for over 15 years. With decades of experience in the plumbing industry, our team of licensed and insured professionals is committed to delivering reliable and affordable plumbing solutions. Whether it's a simple repair, a full system installation, or emergency plumbing services, we handle every job with precision and care.<br/><br/> We understand the value of keeping your plumbing systems running smoothly, which is why we utilize the latest technology and state-of-the-art tools for every project. Our experts stay up-to-date with the latest industry trends to ensure we provide the most efficient and long-lasting solutions. No job is too big or too small for us, and our priority is always customer satisfaction.",
+        "h2Image": "tools-case-top-view-of-seniour-plumber-repairing.webp",
+        "needsSection": {
+            "title": "What Makes Us The Trusted Plumbing Experts in Haddam, CT",
+            "description": "We've earned the trust of Haddam residents with over 15 years of experience delivering reliable plumbing solutions. We offer affordable pricing, transparent communication, and guaranteed satisfaction on every job.",
+            "needslist": [
+                {
+                    "title": "15+ Years of Trusted Experience",
+                    "description": "Ben Franklin Plumbing is the leading choice for plumbing solutions in Haddam. Our team has handled everything from simple repairs to complex installations, making us your go-to experts for all plumbing needs. "
+                },
+                {
+                    "title": "Always On Time, Every Time",
+                    "description": "We understand the inconvenience plumbing issues can cause, which is why we offer an On-Time Guarantee. When you schedule an appointment with us, we promise to arrive at the scheduled time or your service is free."
+                },
+                {
+                    "title": " Fully Licensed & Insured Professionals",
+                    "description": "Our team of plumbers is fully licensed, insured, and extensively trained to handle any plumbing challenge. Whether it's residential or commercial, you can trust our experts to get the job done right, following all safety standards."
+                },
+                {
+                    "title": "Cutting-edge Technology for Superior Results",
+                    "description": "We use the latest plumbing technology and tools to provide the most efficient and effective solutions. From high-tech leak detection to trenchless pipe repair, we stay ahead of the curve to ensure long-lasting, cost-effective results."
+                },
+                {
+                    "title": "Transparent Pricing & Honest Estimates",
+                    "description": "We believe in transparency. Before any work begins, we provide you with a clear, upfront estimate with no hidden fees or surprises. We explain every aspect of the service and ensure you're comfortable with the pricing."
+                },
+                {
+                    "title": "Satisfaction Guaranteed",
+                    "description": "We stand behind every job we do. Our commitment to excellence means you won't have to worry about anything but enjoying the peace of mind of knowing your plumbing is in the hands of professionals."
+                }
+            ]
+        },
+        "h5": "Expert Plumbing Installation for New Builds and Renovations",
+        "p5": "No matter the size of the job, Ben Franklin Plumbing offers dependable and high-quality plumbing solutions. Whether it's a leaky faucet, a clogged drain, or a major plumbing renovation, we have the expertise and experience to handle it all.",
+        "h5Image": "young-plumber-changing-trap-under-sink.webp",
+        "faq": [
+            {
+                "ques": "How quickly can you respond to a plumbing emergency?",
+                "ans": "We offer 24/7 emergency plumbing services and strive to respond to urgent calls within the hour. Our team is always ready to help with any unexpected plumbing issue."
+            },
+            {
+                "ques": "What should I do if I have a burst pipe?",
+                "ans": "If you experience a burst pipe, immediately turn off the water supply to your home and contact us right away. Our experienced plumbers will arrive quickly to prevent further damage and fix the issue."
+            },
+            {
+                "ques": "How do I know if I need a plumbing inspection?",
+                "ans": "If you notice slow drains, water discoloration, or unusual noises from pipes, it may be time for a professional inspection. Regular inspections can help identify hidden issues before they become major problems."
+            },
+            {
+                "ques": "Do you offer plumbing services for both residential and commercial properties?",
+                "ans": "Yes, we provide plumbing services for both residential and commercial properties in the Haddam area. Whether it's a small repair or a large-scale installation, we have you covered."
+            },
+            {
+                "ques": "Can you help with water heater installation and repairs?",
+                "ans": "Absolutely! We specialize in water heater installations, repairs, and replacements. Whether you need a traditional or tankless water heater, we can recommend the best option for your home or business."
+            },
+            {
+                "ques": "How often should I have my sewer lines cleaned?",
+                "ans": "We recommend having your sewer lines cleaned every 1-2 years to prevent clogs and ensure the system runs smoothly. If you notice any signs of backup or slow drainage, give us a call for an inspection."
+            },
+            {
+                "ques": "What are the signs that my water heater needs to be replaced?",
+                "ans": "Signs that your water heater may need to be replaced include frequent repairs, inconsistent water temperature, strange noises, and discolored water. If you notice any of these issues, it's best to schedule an inspection with our experts."
+            },
+            {
+                "ques": "How can I prevent clogged drains in the future?",
+                "ans": "To prevent clogged drains, avoid pouring grease or oil down the sink, use drain strainers to catch debris, and periodically flush your drains with hot water. For a more thorough solution, schedule regular professional drain cleaning."
+            }
+        ],
+        "reviews": [],
+        "neighbourhoods": "Chester | Killingworth | Higganum | East Haddam | Ivoryton | Deep River | Durham | Moodus | Essex | Westbrook.",
+        "zipCodes": "6438"
+    },
+    "hadlyme-ct": {
+        "slug": "hadlyme-ct",
+        "name": "Hadlyme",
+        "metaTitle": "Best Plumbing Services in Hadlyme, CT | Call Now",
+        "metaDescription": "Looking for plumbing services in Hadlyme, CT? We provide expert repairs, water heater installations, and emergency plumbing. Get in touch today!",
+        "metaCanonical": "",
+        "bannerImage": "banner.jpg",
+        "h1Banner": "Expert Plumbing Services in Hadlyme, CT",
+        "h2": "Affordable Plumbing Services in Hadlyme, CT",
+        "p2": "At Ben Franklin Plumbing, we've been proudly serving the residents and businesses of Hadlyme, CT, for over 15 years. With decades of experience in the plumbing industry, our team of licensed and insured professionals is committed to delivering reliable and affordable plumbing solutions. Whether it's a simple repair, a full system installation, or emergency plumbing services, we handle every job with precision and care.<br/><br/> We understand the value of keeping your plumbing systems running smoothly, which is why we utilize the latest technology and state-of-the-art tools for every project. Our experts stay up-to-date with the latest industry trends to ensure we provide the most efficient and long-lasting solutions. No job is too big or too small for us, and our priority is always customer satisfaction.",
+        "h2Image": "tools-case-top-view-of-seniour-plumber-repairing.webp",
+        "needsSection": {
+            "title": "What Makes Us The Trusted Plumbing Experts in Hadlyme, CT",
+            "description": "We've earned the trust of Hadlyme residents with over 15 years of experience delivering reliable plumbing solutions. We offer affordable pricing, transparent communication, and guaranteed satisfaction on every job.",
+            "needslist": [
+                {
+                    "title": "15+ Years of Trusted Experience",
+                    "description": "Ben Franklin Plumbing is the leading choice for plumbing solutions in Hadlyme. Our team has handled everything from simple repairs to complex installations, making us your go-to experts for all plumbing needs. "
+                },
+                {
+                    "title": "Always On Time, Every Time",
+                    "description": "We understand the inconvenience plumbing issues can cause, which is why we offer an On-Time Guarantee. When you schedule an appointment with us, we promise to arrive at the scheduled time or your service is free."
+                },
+                {
+                    "title": " Fully Licensed & Insured Professionals",
+                    "description": "Our team of plumbers is fully licensed, insured, and extensively trained to handle any plumbing challenge. Whether it's residential or commercial, you can trust our experts to get the job done right, following all safety standards."
+                },
+                {
+                    "title": "Cutting-edge Technology for Superior Results",
+                    "description": "We use the latest plumbing technology and tools to provide the most efficient and effective solutions. From high-tech leak detection to trenchless pipe repair, we stay ahead of the curve to ensure long-lasting, cost-effective results."
+                },
+                {
+                    "title": "Transparent Pricing & Honest Estimates",
+                    "description": "We believe in transparency. Before any work begins, we provide you with a clear, upfront estimate with no hidden fees or surprises. We explain every aspect of the service and ensure you're comfortable with the pricing."
+                },
+                {
+                    "title": "Satisfaction Guaranteed",
+                    "description": "We stand behind every job we do. Our commitment to excellence means you won't have to worry about anything but enjoying the peace of mind of knowing your plumbing is in the hands of professionals."
+                }
+            ]
+        },
+        "h5": "Expert Plumbing Installation for New Builds and Renovations",
+        "p5": "No matter the size of the job, Ben Franklin Plumbing offers dependable and high-quality plumbing solutions. Whether it's a leaky faucet, a clogged drain, or a major plumbing renovation, we have the expertise and experience to handle it all.",
+        "h5Image": "young-plumber-changing-trap-under-sink.webp",
+        "faq": [
+            {
+                "ques": "How quickly can you respond to a plumbing emergency?",
+                "ans": "We offer 24/7 emergency plumbing services and strive to respond to urgent calls within the hour. Our team is always ready to help with any unexpected plumbing issue."
+            },
+            {
+                "ques": "What should I do if I have a burst pipe?",
+                "ans": "If you experience a burst pipe, immediately turn off the water supply to your home and contact us right away. Our experienced plumbers will arrive quickly to prevent further damage and fix the issue."
+            },
+            {
+                "ques": "How do I know if I need a plumbing inspection?",
+                "ans": "If you notice slow drains, water discoloration, or unusual noises from pipes, it may be time for a professional inspection. Regular inspections can help identify hidden issues before they become major problems."
+            },
+            {
+                "ques": "Do you offer plumbing services for both residential and commercial properties?",
+                "ans": "Yes, we provide plumbing services for both residential and commercial properties in the Hadlyme area. Whether it's a small repair or a large-scale installation, we have you covered."
+            },
+            {
+                "ques": "Can you help with water heater installation and repairs?",
+                "ans": "Absolutely! We specialize in water heater installations, repairs, and replacements. Whether you need a traditional or tankless water heater, we can recommend the best option for your home or business."
+            },
+            {
+                "ques": "How often should I have my sewer lines cleaned?",
+                "ans": "We recommend having your sewer lines cleaned every 1-2 years to prevent clogs and ensure the system runs smoothly. If you notice any signs of backup or slow drainage, give us a call for an inspection."
+            },
+            {
+                "ques": "What are the signs that my water heater needs to be replaced?",
+                "ans": "Signs that your water heater may need to be replaced include frequent repairs, inconsistent water temperature, strange noises, and discolored water. If you notice any of these issues, it's best to schedule an inspection with our experts."
+            },
+            {
+                "ques": "How can I prevent clogged drains in the future?",
+                "ans": "To prevent clogged drains, avoid pouring grease or oil down the sink, use drain strainers to catch debris, and periodically flush your drains with hot water. For a more thorough solution, schedule regular professional drain cleaning."
+            }
+        ],
+        "reviews": [],
+        "neighbourhoods": "Chester | Deep River | Essex | Haddam | Lyme | East Haddam | Old Lyme | Old Saybrook | Portland | Westbrook.",
+        "zipCodes": "6439 | 6440"
+    },
+    "hamden-ct": {
+        "slug": "hamden-ct",
+        "name": "Hamden",
+        "metaTitle": "Best Plumbing Services in Hamden, CT | Call Now",
+        "metaDescription": "Looking for plumbing services in Hamden, CT? We provide expert repairs, water heater installations, and emergency plumbing. Get in touch today!",
+        "metaCanonical": "",
+        "bannerImage": "banner.jpg",
+        "h1Banner": "Expert Plumbing Services in Hamden, CT",
+        "h2": "Affordable Plumbing Services in Hamden, CT",
+        "p2": "At Ben Franklin Plumbing, we've been proudly serving the residents and businesses of Hamden, CT, for over 15 years. With decades of experience in the plumbing industry, our team of licensed and insured professionals is committed to delivering reliable and affordable plumbing solutions. Whether it's a simple repair, a full system installation, or emergency plumbing services, we handle every job with precision and care.<br/><br/> We understand the value of keeping your plumbing systems running smoothly, which is why we utilize the latest technology and state-of-the-art tools for every project. Our experts stay up-to-date with the latest industry trends to ensure we provide the most efficient and long-lasting solutions. No job is too big or too small for us, and our priority is always customer satisfaction.",
+        "h2Image": "tools-case-top-view-of-seniour-plumber-repairing.webp",
+        "needsSection": {
+            "title": "What Makes Us The Trusted Plumbing Experts in Hamden, CT",
+            "description": "We've earned the trust of Hamden residents with over 15 years of experience delivering reliable plumbing solutions. We offer affordable pricing, transparent communication, and guaranteed satisfaction on every job.",
+            "needslist": [
+                {
+                    "title": "15+ Years of Trusted Experience",
+                    "description": "Ben Franklin Plumbing is the leading choice for plumbing solutions in Hamden. Our team has handled everything from simple repairs to complex installations, making us your go-to experts for all plumbing needs. "
+                },
+                {
+                    "title": "Always On Time, Every Time",
+                    "description": "We understand the inconvenience plumbing issues can cause, which is why we offer an On-Time Guarantee. When you schedule an appointment with us, we promise to arrive at the scheduled time or your service is free."
+                },
+                {
+                    "title": " Fully Licensed & Insured Professionals",
+                    "description": "Our team of plumbers is fully licensed, insured, and extensively trained to handle any plumbing challenge. Whether it's residential or commercial, you can trust our experts to get the job done right, following all safety standards."
+                },
+                {
+                    "title": "Cutting-edge Technology for Superior Results",
+                    "description": "We use the latest plumbing technology and tools to provide the most efficient and effective solutions. From high-tech leak detection to trenchless pipe repair, we stay ahead of the curve to ensure long-lasting, cost-effective results."
+                },
+                {
+                    "title": "Transparent Pricing & Honest Estimates",
+                    "description": "We believe in transparency. Before any work begins, we provide you with a clear, upfront estimate with no hidden fees or surprises. We explain every aspect of the service and ensure you're comfortable with the pricing."
+                },
+                {
+                    "title": "Satisfaction Guaranteed",
+                    "description": "We stand behind every job we do. Our commitment to excellence means you won't have to worry about anything but enjoying the peace of mind of knowing your plumbing is in the hands of professionals."
+                }
+            ]
+        },
+        "h5": "Expert Plumbing Installation for New Builds and Renovations",
+        "p5": "No matter the size of the job, Ben Franklin Plumbing offers dependable and high-quality plumbing solutions. Whether it's a leaky faucet, a clogged drain, or a major plumbing renovation, we have the expertise and experience to handle it all.",
+        "h5Image": "young-plumber-changing-trap-under-sink.webp",
+        "faq": [
+            {
+                "ques": "How quickly can you respond to a plumbing emergency?",
+                "ans": "We offer 24/7 emergency plumbing services and strive to respond to urgent calls within the hour. Our team is always ready to help with any unexpected plumbing issue."
+            },
+            {
+                "ques": "What should I do if I have a burst pipe?",
+                "ans": "If you experience a burst pipe, immediately turn off the water supply to your home and contact us right away. Our experienced plumbers will arrive quickly to prevent further damage and fix the issue."
+            },
+            {
+                "ques": "How do I know if I need a plumbing inspection?",
+                "ans": "If you notice slow drains, water discoloration, or unusual noises from pipes, it may be time for a professional inspection. Regular inspections can help identify hidden issues before they become major problems."
+            },
+            {
+                "ques": "Do you offer plumbing services for both residential and commercial properties?",
+                "ans": "Yes, we provide plumbing services for both residential and commercial properties in the Hamden area. Whether it's a small repair or a large-scale installation, we have you covered."
+            },
+            {
+                "ques": "Can you help with water heater installation and repairs?",
+                "ans": "Absolutely! We specialize in water heater installations, repairs, and replacements. Whether you need a traditional or tankless water heater, we can recommend the best option for your home or business."
+            },
+            {
+                "ques": "How often should I have my sewer lines cleaned?",
+                "ans": "We recommend having your sewer lines cleaned every 1-2 years to prevent clogs and ensure the system runs smoothly. If you notice any signs of backup or slow drainage, give us a call for an inspection."
+            },
+            {
+                "ques": "What are the signs that my water heater needs to be replaced?",
+                "ans": "Signs that your water heater may need to be replaced include frequent repairs, inconsistent water temperature, strange noises, and discolored water. If you notice any of these issues, it's best to schedule an inspection with our experts."
+            },
+            {
+                "ques": "How can I prevent clogged drains in the future?",
+                "ans": "To prevent clogged drains, avoid pouring grease or oil down the sink, use drain strainers to catch debris, and periodically flush your drains with hot water. For a more thorough solution, schedule regular professional drain cleaning."
+            }
+        ],
+        "reviews": [],
+        "neighbourhoods": "North Haven | New Haven | Cheshire | Wallingford | Woodbridge | Bethany | East Haven | Branford | Milford | Seymour.",
+        "zipCodes": "6514 | 6517 | 6518"
+    },
+    "hampton-ct": {
+        "slug": "hampton-ct",
+        "name": "Hampton",
+        "metaTitle": "Best Plumbing Services in Hampton, CT | Call Now",
+        "metaDescription": "Looking for plumbing services in Hampton, CT? We provide expert repairs, water heater installations, and emergency plumbing. Get in touch today!",
+        "metaCanonical": "",
+        "bannerImage": "banner.jpg",
+        "h1Banner": "Expert Plumbing Services in Hampton, CT",
+        "h2": "Affordable Plumbing Services in Hampton, CT",
+        "p2": "At Ben Franklin Plumbing, we've been proudly serving the residents and businesses of Hampton, CT, for over 15 years. With decades of experience in the plumbing industry, our team of licensed and insured professionals is committed to delivering reliable and affordable plumbing solutions. Whether it's a simple repair, a full system installation, or emergency plumbing services, we handle every job with precision and care.<br/><br/> We understand the value of keeping your plumbing systems running smoothly, which is why we utilize the latest technology and state-of-the-art tools for every project. Our experts stay up-to-date with the latest industry trends to ensure we provide the most efficient and long-lasting solutions. No job is too big or too small for us, and our priority is always customer satisfaction.",
+        "h2Image": "tools-case-top-view-of-seniour-plumber-repairing.webp",
+        "needsSection": {
+            "title": "What Makes Us The Trusted Plumbing Experts in Hampton, CT",
+            "description": "We've earned the trust of Hampton residents with over 15 years of experience delivering reliable plumbing solutions. We offer affordable pricing, transparent communication, and guaranteed satisfaction on every job.",
+            "needslist": [
+                {
+                    "title": "15+ Years of Trusted Experience",
+                    "description": "Ben Franklin Plumbing is the leading choice for plumbing solutions in Hampton. Our team has handled everything from simple repairs to complex installations, making us your go-to experts for all plumbing needs. "
+                },
+                {
+                    "title": "Always On Time, Every Time",
+                    "description": "We understand the inconvenience plumbing issues can cause, which is why we offer an On-Time Guarantee. When you schedule an appointment with us, we promise to arrive at the scheduled time or your service is free."
+                },
+                {
+                    "title": " Fully Licensed & Insured Professionals",
+                    "description": "Our team of plumbers is fully licensed, insured, and extensively trained to handle any plumbing challenge. Whether it's residential or commercial, you can trust our experts to get the job done right, following all safety standards."
+                },
+                {
+                    "title": "Cutting-edge Technology for Superior Results",
+                    "description": "We use the latest plumbing technology and tools to provide the most efficient and effective solutions. From high-tech leak detection to trenchless pipe repair, we stay ahead of the curve to ensure long-lasting, cost-effective results."
+                },
+                {
+                    "title": "Transparent Pricing & Honest Estimates",
+                    "description": "We believe in transparency. Before any work begins, we provide you with a clear, upfront estimate with no hidden fees or surprises. We explain every aspect of the service and ensure you're comfortable with the pricing."
+                },
+                {
+                    "title": "Satisfaction Guaranteed",
+                    "description": "We stand behind every job we do. Our commitment to excellence means you won't have to worry about anything but enjoying the peace of mind of knowing your plumbing is in the hands of professionals."
+                }
+            ]
+        },
+        "h5": "Expert Plumbing Installation for New Builds and Renovations",
+        "p5": "No matter the size of the job, Ben Franklin Plumbing offers dependable and high-quality plumbing solutions. Whether it's a leaky faucet, a clogged drain, or a major plumbing renovation, we have the expertise and experience to handle it all.",
+        "h5Image": "young-plumber-changing-trap-under-sink.webp",
+        "faq": [
+            {
+                "ques": "How quickly can you respond to a plumbing emergency?",
+                "ans": "We offer 24/7 emergency plumbing services and strive to respond to urgent calls within the hour. Our team is always ready to help with any unexpected plumbing issue."
+            },
+            {
+                "ques": "What should I do if I have a burst pipe?",
+                "ans": "If you experience a burst pipe, immediately turn off the water supply to your home and contact us right away. Our experienced plumbers will arrive quickly to prevent further damage and fix the issue."
+            },
+            {
+                "ques": "How do I know if I need a plumbing inspection?",
+                "ans": "If you notice slow drains, water discoloration, or unusual noises from pipes, it may be time for a professional inspection. Regular inspections can help identify hidden issues before they become major problems."
+            },
+            {
+                "ques": "Do you offer plumbing services for both residential and commercial properties?",
+                "ans": "Yes, we provide plumbing services for both residential and commercial properties in the Hampton area. Whether it's a small repair or a large-scale installation, we have you covered."
+            },
+            {
+                "ques": "Can you help with water heater installation and repairs?",
+                "ans": "Absolutely! We specialize in water heater installations, repairs, and replacements. Whether you need a traditional or tankless water heater, we can recommend the best option for your home or business."
+            },
+            {
+                "ques": "How often should I have my sewer lines cleaned?",
+                "ans": "We recommend having your sewer lines cleaned every 1-2 years to prevent clogs and ensure the system runs smoothly. If you notice any signs of backup or slow drainage, give us a call for an inspection."
+            },
+            {
+                "ques": "What are the signs that my water heater needs to be replaced?",
+                "ans": "Signs that your water heater may need to be replaced include frequent repairs, inconsistent water temperature, strange noises, and discolored water. If you notice any of these issues, it's best to schedule an inspection with our experts."
+            },
+            {
+                "ques": "How can I prevent clogged drains in the future?",
+                "ans": "To prevent clogged drains, avoid pouring grease or oil down the sink, use drain strainers to catch debris, and periodically flush your drains with hot water. For a more thorough solution, schedule regular professional drain cleaning."
+            }
+        ],
+        "reviews": [],
+        "neighbourhoods": "Brooklyn | Canterbury | Chaplin | Eastford | Hampton | Killingly | Lebanon | Mansfield | Plainfield | Pomfret.",
+        "zipCodes": "6247"
+    },
+    "hanover-ct": {
+        "slug": "hanover-ct",
+        "name": "Hanover",
+        "metaTitle": "Best Plumbing Services in Hanover, CT | Call Now",
+        "metaDescription": "Looking for plumbing services in Hanover, CT? We provide expert repairs, water heater installations, and emergency plumbing. Get in touch today!",
+        "metaCanonical": "",
+        "bannerImage": "banner.jpg",
+        "h1Banner": "Expert Plumbing Services in Hanover, CT",
+        "h2": "Affordable Plumbing Services in Hanover, CT",
+        "p2": "At Ben Franklin Plumbing, we've been proudly serving the residents and businesses of Hanover, CT, for over 15 years. With decades of experience in the plumbing industry, our team of licensed and insured professionals is committed to delivering reliable and affordable plumbing solutions. Whether it's a simple repair, a full system installation, or emergency plumbing services, we handle every job with precision and care.<br/><br/> We understand the value of keeping your plumbing systems running smoothly, which is why we utilize the latest technology and state-of-the-art tools for every project. Our experts stay up-to-date with the latest industry trends to ensure we provide the most efficient and long-lasting solutions. No job is too big or too small for us, and our priority is always customer satisfaction.",
+        "h2Image": "tools-case-top-view-of-seniour-plumber-repairing.webp",
+        "needsSection": {
+            "title": "What Makes Us The Trusted Plumbing Experts in Hanover, CT",
+            "description": "We've earned the trust of Hanover residents with over 15 years of experience delivering reliable plumbing solutions. We offer affordable pricing, transparent communication, and guaranteed satisfaction on every job.",
+            "needslist": [
+                {
+                    "title": "15+ Years of Trusted Experience",
+                    "description": "Ben Franklin Plumbing is the leading choice for plumbing solutions in Hanover. Our team has handled everything from simple repairs to complex installations, making us your go-to experts for all plumbing needs. "
+                },
+                {
+                    "title": "Always On Time, Every Time",
+                    "description": "We understand the inconvenience plumbing issues can cause, which is why we offer an On-Time Guarantee. When you schedule an appointment with us, we promise to arrive at the scheduled time or your service is free."
+                },
+                {
+                    "title": " Fully Licensed & Insured Professionals",
+                    "description": "Our team of plumbers is fully licensed, insured, and extensively trained to handle any plumbing challenge. Whether it's residential or commercial, you can trust our experts to get the job done right, following all safety standards."
+                },
+                {
+                    "title": "Cutting-edge Technology for Superior Results",
+                    "description": "We use the latest plumbing technology and tools to provide the most efficient and effective solutions. From high-tech leak detection to trenchless pipe repair, we stay ahead of the curve to ensure long-lasting, cost-effective results."
+                },
+                {
+                    "title": "Transparent Pricing & Honest Estimates",
+                    "description": "We believe in transparency. Before any work begins, we provide you with a clear, upfront estimate with no hidden fees or surprises. We explain every aspect of the service and ensure you're comfortable with the pricing."
+                },
+                {
+                    "title": "Satisfaction Guaranteed",
+                    "description": "We stand behind every job we do. Our commitment to excellence means you won't have to worry about anything but enjoying the peace of mind of knowing your plumbing is in the hands of professionals."
+                }
+            ]
+        },
+        "h5": "Expert Plumbing Installation for New Builds and Renovations",
+        "p5": "No matter the size of the job, Ben Franklin Plumbing offers dependable and high-quality plumbing solutions. Whether it's a leaky faucet, a clogged drain, or a major plumbing renovation, we have the expertise and experience to handle it all.",
+        "h5Image": "young-plumber-changing-trap-under-sink.webp",
+        "faq": [
+            {
+                "ques": "How quickly can you respond to a plumbing emergency?",
+                "ans": "We offer 24/7 emergency plumbing services and strive to respond to urgent calls within the hour. Our team is always ready to help with any unexpected plumbing issue."
+            },
+            {
+                "ques": "What should I do if I have a burst pipe?",
+                "ans": "If you experience a burst pipe, immediately turn off the water supply to your home and contact us right away. Our experienced plumbers will arrive quickly to prevent further damage and fix the issue."
+            },
+            {
+                "ques": "How do I know if I need a plumbing inspection?",
+                "ans": "If you notice slow drains, water discoloration, or unusual noises from pipes, it may be time for a professional inspection. Regular inspections can help identify hidden issues before they become major problems."
+            },
+            {
+                "ques": "Do you offer plumbing services for both residential and commercial properties?",
+                "ans": "Yes, we provide plumbing services for both residential and commercial properties in the Hanover area. Whether it's a small repair or a large-scale installation, we have you covered."
+            },
+            {
+                "ques": "Can you help with water heater installation and repairs?",
+                "ans": "Absolutely! We specialize in water heater installations, repairs, and replacements. Whether you need a traditional or tankless water heater, we can recommend the best option for your home or business."
+            },
+            {
+                "ques": "How often should I have my sewer lines cleaned?",
+                "ans": "We recommend having your sewer lines cleaned every 1-2 years to prevent clogs and ensure the system runs smoothly. If you notice any signs of backup or slow drainage, give us a call for an inspection."
+            },
+            {
+                "ques": "What are the signs that my water heater needs to be replaced?",
+                "ans": "Signs that your water heater may need to be replaced include frequent repairs, inconsistent water temperature, strange noises, and discolored water. If you notice any of these issues, it's best to schedule an inspection with our experts."
+            },
+            {
+                "ques": "How can I prevent clogged drains in the future?",
+                "ans": "To prevent clogged drains, avoid pouring grease or oil down the sink, use drain strainers to catch debris, and periodically flush your drains with hot water. For a more thorough solution, schedule regular professional drain cleaning."
+            }
+        ],
+        "reviews": [],
+        "neighbourhoods": "North Scituate | South Scituate | Foster | Coventry | Exeter | West Greenwich | East Greenwich | Warwick | Cranston | Providence.",
+        "zipCodes": "6350"
+    },
+    "harwinton-ct": {
+        "slug": "harwinton-ct",
+        "name": "Harwinton",
+        "metaTitle": "Best Plumbing Services in Harwinton, CT | Call Now",
+        "metaDescription": "Looking for plumbing services in Harwinton, CT? We provide expert repairs, water heater installations, and emergency plumbing. Get in touch today!",
+        "metaCanonical": "",
+        "bannerImage": "banner.jpg",
+        "h1Banner": "Expert Plumbing Services in Harwinton, CT",
+        "h2": "Affordable Plumbing Services in Harwinton, CT",
+        "p2": "At Ben Franklin Plumbing, we've been proudly serving the residents and businesses of Harwinton, CT, for over 15 years. With decades of experience in the plumbing industry, our team of licensed and insured professionals is committed to delivering reliable and affordable plumbing solutions. Whether it's a simple repair, a full system installation, or emergency plumbing services, we handle every job with precision and care.<br/><br/> We understand the value of keeping your plumbing systems running smoothly, which is why we utilize the latest technology and state-of-the-art tools for every project. Our experts stay up-to-date with the latest industry trends to ensure we provide the most efficient and long-lasting solutions. No job is too big or too small for us, and our priority is always customer satisfaction.",
+        "h2Image": "tools-case-top-view-of-seniour-plumber-repairing.webp",
+        "needsSection": {
+            "title": "What Makes Us The Trusted Plumbing Experts in Harwinton, CT",
+            "description": "We've earned the trust of Harwinton residents with over 15 years of experience delivering reliable plumbing solutions. We offer affordable pricing, transparent communication, and guaranteed satisfaction on every job.",
+            "needslist": [
+                {
+                    "title": "15+ Years of Trusted Experience",
+                    "description": "Ben Franklin Plumbing is the leading choice for plumbing solutions in Harwinton. Our team has handled everything from simple repairs to complex installations, making us your go-to experts for all plumbing needs. "
+                },
+                {
+                    "title": "Always On Time, Every Time",
+                    "description": "We understand the inconvenience plumbing issues can cause, which is why we offer an On-Time Guarantee. When you schedule an appointment with us, we promise to arrive at the scheduled time or your service is free."
+                },
+                {
+                    "title": " Fully Licensed & Insured Professionals",
+                    "description": "Our team of plumbers is fully licensed, insured, and extensively trained to handle any plumbing challenge. Whether it's residential or commercial, you can trust our experts to get the job done right, following all safety standards."
+                },
+                {
+                    "title": "Cutting-edge Technology for Superior Results",
+                    "description": "We use the latest plumbing technology and tools to provide the most efficient and effective solutions. From high-tech leak detection to trenchless pipe repair, we stay ahead of the curve to ensure long-lasting, cost-effective results."
+                },
+                {
+                    "title": "Transparent Pricing & Honest Estimates",
+                    "description": "We believe in transparency. Before any work begins, we provide you with a clear, upfront estimate with no hidden fees or surprises. We explain every aspect of the service and ensure you're comfortable with the pricing."
+                },
+                {
+                    "title": "Satisfaction Guaranteed",
+                    "description": "We stand behind every job we do. Our commitment to excellence means you won't have to worry about anything but enjoying the peace of mind of knowing your plumbing is in the hands of professionals."
+                }
+            ]
+        },
+        "h5": "Expert Plumbing Installation for New Builds and Renovations",
+        "p5": "No matter the size of the job, Ben Franklin Plumbing offers dependable and high-quality plumbing solutions. Whether it's a leaky faucet, a clogged drain, or a major plumbing renovation, we have the expertise and experience to handle it all.",
+        "h5Image": "young-plumber-changing-trap-under-sink.webp",
+        "faq": [
+            {
+                "ques": "How quickly can you respond to a plumbing emergency?",
+                "ans": "We offer 24/7 emergency plumbing services and strive to respond to urgent calls within the hour. Our team is always ready to help with any unexpected plumbing issue."
+            },
+            {
+                "ques": "What should I do if I have a burst pipe?",
+                "ans": "If you experience a burst pipe, immediately turn off the water supply to your home and contact us right away. Our experienced plumbers will arrive quickly to prevent further damage and fix the issue."
+            },
+            {
+                "ques": "How do I know if I need a plumbing inspection?",
+                "ans": "If you notice slow drains, water discoloration, or unusual noises from pipes, it may be time for a professional inspection. Regular inspections can help identify hidden issues before they become major problems."
+            },
+            {
+                "ques": "Do you offer plumbing services for both residential and commercial properties?",
+                "ans": "Yes, we provide plumbing services for both residential and commercial properties in the Harwinton area. Whether it's a small repair or a large-scale installation, we have you covered."
+            },
+            {
+                "ques": "Can you help with water heater installation and repairs?",
+                "ans": "Absolutely! We specialize in water heater installations, repairs, and replacements. Whether you need a traditional or tankless water heater, we can recommend the best option for your home or business."
+            },
+            {
+                "ques": "How often should I have my sewer lines cleaned?",
+                "ans": "We recommend having your sewer lines cleaned every 1-2 years to prevent clogs and ensure the system runs smoothly. If you notice any signs of backup or slow drainage, give us a call for an inspection."
+            },
+            {
+                "ques": "What are the signs that my water heater needs to be replaced?",
+                "ans": "Signs that your water heater may need to be replaced include frequent repairs, inconsistent water temperature, strange noises, and discolored water. If you notice any of these issues, it's best to schedule an inspection with our experts."
+            },
+            {
+                "ques": "How can I prevent clogged drains in the future?",
+                "ans": "To prevent clogged drains, avoid pouring grease or oil down the sink, use drain strainers to catch debris, and periodically flush your drains with hot water. For a more thorough solution, schedule regular professional drain cleaning."
+            }
+        ],
+        "reviews": [],
+        "neighbourhoods": "Burlington | Litchfield | Torrington | Plymouth | Thomaston | Morris | New Hartford | Barkhamsted | Winchester | Avon",
+        "zipCodes": "6791 | 6792"
+    },
+    "hebron-ct": {
+        "slug": "hebron-ct",
+        "name": "Hebron",
+        "metaTitle": "Best Plumbing Services in Hebron, CT | Call Now",
+        "metaDescription": "Looking for plumbing services in Hebron, CT? We provide expert repairs, water heater installations, and emergency plumbing. Get in touch today!",
+        "metaCanonical": "",
+        "bannerImage": "banner.jpg",
+        "h1Banner": "Expert Plumbing Services in Hebron, CT",
+        "h2": "Affordable Plumbing Services in Hebron, CT",
+        "p2": "At Ben Franklin Plumbing, we've been proudly serving the residents and businesses of Hebron, CT, for over 15 years. With decades of experience in the plumbing industry, our team of licensed and insured professionals is committed to delivering reliable and affordable plumbing solutions. Whether it's a simple repair, a full system installation, or emergency plumbing services, we handle every job with precision and care.<br/><br/> We understand the value of keeping your plumbing systems running smoothly, which is why we utilize the latest technology and state-of-the-art tools for every project. Our experts stay up-to-date with the latest industry trends to ensure we provide the most efficient and long-lasting solutions. No job is too big or too small for us, and our priority is always customer satisfaction.",
+        "h2Image": "tools-case-top-view-of-seniour-plumber-repairing.webp",
+        "needsSection": {
+            "title": "What Makes Us The Trusted Plumbing Experts in Hebron, CT",
+            "description": "We've earned the trust of Hebron residents with over 15 years of experience delivering reliable plumbing solutions. We offer affordable pricing, transparent communication, and guaranteed satisfaction on every job.",
+            "needslist": [
+                {
+                    "title": "15+ Years of Trusted Experience",
+                    "description": "Ben Franklin Plumbing is the leading choice for plumbing solutions in Hebron. Our team has handled everything from simple repairs to complex installations, making us your go-to experts for all plumbing needs. "
+                },
+                {
+                    "title": "Always On Time, Every Time",
+                    "description": "We understand the inconvenience plumbing issues can cause, which is why we offer an On-Time Guarantee. When you schedule an appointment with us, we promise to arrive at the scheduled time or your service is free."
+                },
+                {
+                    "title": " Fully Licensed & Insured Professionals",
+                    "description": "Our team of plumbers is fully licensed, insured, and extensively trained to handle any plumbing challenge. Whether it's residential or commercial, you can trust our experts to get the job done right, following all safety standards."
+                },
+                {
+                    "title": "Cutting-edge Technology for Superior Results",
+                    "description": "We use the latest plumbing technology and tools to provide the most efficient and effective solutions. From high-tech leak detection to trenchless pipe repair, we stay ahead of the curve to ensure long-lasting, cost-effective results."
+                },
+                {
+                    "title": "Transparent Pricing & Honest Estimates",
+                    "description": "We believe in transparency. Before any work begins, we provide you with a clear, upfront estimate with no hidden fees or surprises. We explain every aspect of the service and ensure you're comfortable with the pricing."
+                },
+                {
+                    "title": "Satisfaction Guaranteed",
+                    "description": "We stand behind every job we do. Our commitment to excellence means you won't have to worry about anything but enjoying the peace of mind of knowing your plumbing is in the hands of professionals."
+                }
+            ]
+        },
+        "h5": "Expert Plumbing Installation for New Builds and Renovations",
+        "p5": "No matter the size of the job, Ben Franklin Plumbing offers dependable and high-quality plumbing solutions. Whether it's a leaky faucet, a clogged drain, or a major plumbing renovation, we have the expertise and experience to handle it all.",
+        "h5Image": "young-plumber-changing-trap-under-sink.webp",
+        "faq": [
+            {
+                "ques": "How quickly can you respond to a plumbing emergency?",
+                "ans": "We offer 24/7 emergency plumbing services and strive to respond to urgent calls within the hour. Our team is always ready to help with any unexpected plumbing issue."
+            },
+            {
+                "ques": "What should I do if I have a burst pipe?",
+                "ans": "If you experience a burst pipe, immediately turn off the water supply to your home and contact us right away. Our experienced plumbers will arrive quickly to prevent further damage and fix the issue."
+            },
+            {
+                "ques": "How do I know if I need a plumbing inspection?",
+                "ans": "If you notice slow drains, water discoloration, or unusual noises from pipes, it may be time for a professional inspection. Regular inspections can help identify hidden issues before they become major problems."
+            },
+            {
+                "ques": "Do you offer plumbing services for both residential and commercial properties?",
+                "ans": "Yes, we provide plumbing services for both residential and commercial properties in the Hebron area. Whether it's a small repair or a large-scale installation, we have you covered."
+            },
+            {
+                "ques": "Can you help with water heater installation and repairs?",
+                "ans": "Absolutely! We specialize in water heater installations, repairs, and replacements. Whether you need a traditional or tankless water heater, we can recommend the best option for your home or business."
+            },
+            {
+                "ques": "How often should I have my sewer lines cleaned?",
+                "ans": "We recommend having your sewer lines cleaned every 1-2 years to prevent clogs and ensure the system runs smoothly. If you notice any signs of backup or slow drainage, give us a call for an inspection."
+            },
+            {
+                "ques": "What are the signs that my water heater needs to be replaced?",
+                "ans": "Signs that your water heater may need to be replaced include frequent repairs, inconsistent water temperature, strange noises, and discolored water. If you notice any of these issues, it's best to schedule an inspection with our experts."
+            },
+            {
+                "ques": "How can I prevent clogged drains in the future?",
+                "ans": "To prevent clogged drains, avoid pouring grease or oil down the sink, use drain strainers to catch debris, and periodically flush your drains with hot water. For a more thorough solution, schedule regular professional drain cleaning."
+            }
+        ],
+        "reviews": [],
+        "neighbourhoods": "Marlborough | Andover | Columbia | Bolton | Glastonbury | Manchester | Coventry | Lebanon | Colchester | East Haddam",
+        "zipCodes": "6248"
     }
 }
