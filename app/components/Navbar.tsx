@@ -21,7 +21,7 @@ const Navbar = () => {
               <Link href={ContactInfo?.baseUrl} aria-label="Home">
                 <Image
                   src="/logo.png"
-                  className=" md:mr-3 w-56 md:w-32 h-full object-cover "
+                  className=" md:mr-3 w-32 h-full object-cover "
                   alt="logo of the company"
                   title=""
                   loading="lazy"
