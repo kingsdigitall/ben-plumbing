@@ -15,7 +15,7 @@ const Footer = () => {
     <div className=" flex w-full items-center justify-center bg-[#eeecec]">
       <div className=" flex w-full  items-center justify-center overflow-hidden">
         <div className=" mt-8 flex w-full flex-col  items-center justify-center md:min-w-[650px] ">
-          <div className="mt-8 flex w-fit flex-col justify-center gap-2 px-6  text-white md:w-full  md:flex-row md:items-start   md:justify-around md:px-20 ">
+          <div className=" flex w-fit flex-col justify-center gap-2 px-6  text-white md:w-full  md:flex-row md:items-start   md:justify-around md:px-20 ">
             {/* <div className="flex flex-col items-center justify-center shadow-sm md:w-80    ">
               <h2 className="mt-14 w-fit border-b-2 border-minor text-3xl font-semibold sm:mt-0">
                 Stay Tuned
@@ -38,15 +38,28 @@ const Footer = () => {
                 </Link>
               </div>
             </div> */}
-            <div className="mt-4 flex   items-center justify-center text-2xl md:mt-0 md:w-80 ">
+            <div className="mt-4 flex flex-col md:flex-row  w-full items-center justify-around  divide-x-2 text-2xl  md:mt-0">
               <Image
                 src={`/${contentData.logo}`}
                 height={10000}
                 width={10000}
-                className="w-full object-cover  "
+                className="w-80 object-cover "
                 alt={contentData.logo.split(".")[0]}
                 title={contentData.logo.split(".")[0]}
               />
+              <div className="flex flex-col items-center pb-4 md:pb-0">
+                <div className="mx-9  w-full md:w-fit text-center  text-3xl font-medium text-main">
+                  <p className="my-2">Our Other Brand:</p>
+                </div>
+                <Image
+                  src={`/Kleanr.png`}
+                  height={10000}
+                  width={10000}
+                  className="w-60 object-cover "
+                  alt={contentData.logo.split(".")[0]}
+                  title={contentData.logo.split(".")[0]}
+                />
+              </div>
             </div>
             {/* <div className="mt-20  flex flex-col items-center   justify-center text-xl md:mt-0  md:w-80 ">
               <h2 className=" w-fit border-b-2 border-minor  text-3xl font-semibold">
@@ -68,9 +81,14 @@ const Footer = () => {
               </div>
             </div> */}
           </div>
-          <div className="mx-9 mt-10 border-t-2 border-minor text-center  text-xl text-main ">
+          {/* <div className="mx-9   text-center  text-3xl font-medium text-main">
             <p className="my-2">
-            Copyright ©2024 {ContactInfo.name}, All Right Reserved
+            Our Other Brand : <Link href="https://www.kleanr.com/"><span className="text-minor hover:underline hover:underline-offset-4  underline-offset-8  ease-in-out duration-200">Kleanr</span></Link>
+            </p>
+          </div> */}
+          <div className="mx-9  border-t-2 border-minor text-center  text-xl text-main ">
+            <p className="my-2">
+              Copyright ©2024 {ContactInfo.name}, All Right Reserved
             </p>
           </div>
         </div>
