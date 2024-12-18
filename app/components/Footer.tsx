@@ -47,7 +47,7 @@ const Footer = () => {
                 alt={contentData.logo.split(".")[0]}
                 title={contentData.logo.split(".")[0]}
               />
-              <div className="flex flex-col items-center pb-4 md:pb-0">
+              {/* <div className="flex flex-col items-center pb-4 md:pb-0">
                 <div className="mx-9  w-full md:w-fit text-center  text-3xl font-medium text-main">
                   <p className="my-2">Our Other Brand:</p>
                 </div>
@@ -59,7 +59,7 @@ const Footer = () => {
                   alt={contentData.logo.split(".")[0]}
                   title={contentData.logo.split(".")[0]}
                 />
-              </div>
+              </div> */}
             </div>
             {/* <div className="mt-20  flex flex-col items-center   justify-center text-xl md:mt-0  md:w-80 ">
               <h2 className=" w-fit border-b-2 border-minor  text-3xl font-semibold">
@@ -81,11 +81,11 @@ const Footer = () => {
               </div>
             </div> */}
           </div>
-          {/* <div className="mx-9   text-center  text-3xl font-medium text-main">
+          <div className="mx-9   text-center  text-3xl font-medium text-main">
             <p className="my-2">
-            Our Other Brand : <Link href="https://www.kleanr.com/"><span className="text-minor hover:underline hover:underline-offset-4  underline-offset-8  ease-in-out duration-200">Kleanr</span></Link>
+            Our Other Brand : <Link href="https://www.kleanr.com/locations"><span className="text-minor hover:underline hover:underline-offset-4  underline-offset-8  ease-in-out duration-200">Kleanr</span></Link>
             </p>
-          </div> */}
+          </div>
           <div className="mx-9  border-t-2 border-minor text-center  text-xl text-main ">
             <p className="my-2">
               Copyright ©2024 {ContactInfo.name}, All Right Reserved
