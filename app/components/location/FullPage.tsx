@@ -50,12 +50,12 @@ const Page = () => {
     <div className="">
       <div className="mx-10 mt-10 flex h-fit w-auto flex-wrap gap-4   justify-center items-center">
           {Object.keys(data)
-            // .sort()
+            .sort()
             .map((City: any, index: number) => {
               return (
                 <div className="" key={index}>
                   <Link
-                    href={`http://${data[City].slug}.${ContactInfo.host}`}
+                    href={`https://${data[City].slug}.${ContactInfo.host}`}
                     className="text-center"
                   >
                     <button type="button" className="text-white  bg-main hover:bg-main/90 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">{data[City].name}</button>
