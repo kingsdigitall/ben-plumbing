@@ -16,7 +16,7 @@ const Affordable = ({Data}:any) => {
           <p className="mt-4 text-gray-600">
          {Data.missionDescription}
           </p>
-          <a href={`tel:${contactInfo.tel}`}>
+          <a id='cta-id' href={`tel:${contactInfo.tel}`}>
           <button className="mt-8 rounded-lg bg-minor px-6 py-3 text-white transition hover:bg-main ease-in duration-700" >
             Call Now
           </button>

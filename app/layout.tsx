@@ -11,7 +11,7 @@ const inter = DM_Sans({
 
 export const metadata: Metadata = {
   other: {
-    'google-site-verification': "t6dnqcadULsfgfDxvP9GApAJ0I_ICBX5JixuO5LvVBA",
+    'google-site-verification': "",
   },
 };
 
@@ -22,8 +22,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <GoogleAnalytics gaId="G-FMKTNRFE9G" />
-      <GoogleTagManager gtmId="GTM-PLFC5655" />
+      <GoogleAnalytics gaId="" />
+      <GoogleTagManager gtmId="GTM-W83TPMXW" />
       <body className={`w-full ${inter.className}`}>
         <div className="bg-white">
           <Navbar />

@@ -44,7 +44,7 @@ const Page = () => {
                   className="mt-4 text-justify"
                   dangerouslySetInnerHTML={{ __html: contentData.p2 }}
                 ></p>
-                <Link href={`tel:${ContactInfo.tel}`}>
+                <Link id='cta-id' href={`tel:${ContactInfo.tel}`}>
                   <button
                     className="bg-main hover:bg-minor text-white font-bold p-4 rounded-3xl mt-10 text-xl flex justify-center border items-center"
                   >
@@ -64,7 +64,7 @@ const Page = () => {
             Let&apos;s Start a Conversation
           </div>
           <div className="text-center border-double">
-            <a href={`tel:${ContactInfo.tel}`}>
+            <a id='cta-id' href={`tel:${ContactInfo.tel}`}>
               <button
                 className="bg-main hover:bg-minor shadow-lg rounded-lg py-3 px-4 tracking-wide mt-3 text-white font-bold"
               >
@@ -108,7 +108,7 @@ const Page = () => {
             height={200}
             className="group-hover:-translate-y-4 ease-in duration-300"
           />
-          <Link href={`tel:${ContactInfo.tel}`} className="w-full grid place-items-center">
+          <Link id='cta-id' href={`tel:${ContactInfo.tel}`} className="w-full grid place-items-center">
             <div
               className="bg-white w-[90%] text-2xl font-semibold text-center rounded-lg m-h-64 p-2 ring ring-main transform hover:shadow-minor group-hover:translate-y-4 hover:shadow-xl transition ease-in duration-300"
               dangerouslySetInnerHTML={{ __html: contentData.ctaText }}

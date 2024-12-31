@@ -30,7 +30,7 @@ const CounterCta = () => {
         <div className="mt-6  gap-4 flex justify-center ">
           <div className="flex flex-col text-lg  border px-4 py-2 bg-white rounded-md">
             <div className=" font-bold text-main">
-              <a href={`tel:${ContactInfo.tel}`}>{ContactInfo.No}</a>
+              <a id='cta-id' href={`tel:${ContactInfo.tel}`}>{ContactInfo.No}</a>
             </div>
           </div>
         </div>
