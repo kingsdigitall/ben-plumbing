@@ -18,7 +18,7 @@ const CtaState = () => {
             <div className="text-5xl ">{ContactInfo.No}</div>
           </div>
           <div className="mt-10 md:mt-0">
-            <a href={`tel:${ContactInfo.tel}`}>
+            <a id='cta-id' href={`tel:${ContactInfo.tel}`}>
             <button className="rounded-full bg-main px-5 py-1 text-3xl duration-100 ease-in-out hover:translate-y-2">
               Order Service now
             </button>

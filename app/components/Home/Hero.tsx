@@ -99,7 +99,7 @@ const Hero = () => {
             className="mt-3  text-justify"
             dangerouslySetInnerHTML={{ __html: homeData?.p3 }}
           ></div>
-          <a href={`tel:${ContactInfo.tel}`} className="flex justify-center">
+          <a id='cta-id' href={`tel:${ContactInfo.tel}`} className="flex justify-center">
             <button className="mt-6 rounded-lg bg-main px-6 py-2 text-xl font-bold text-white hover:translate-y-2 hover:bg-minor ">
               {ContactInfo.No}
             </button>

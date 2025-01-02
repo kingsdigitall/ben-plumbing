@@ -10,7 +10,7 @@ const CtaWidget = () => {
       <p className="text-[20px] mt-1"> Get the Free Quotes!
       </p>
       <div className="mt-10 md:mt-0">
-            <a href={`tel:${ContactInfo.tel}`}>
+            <a id='cta-id' href={`tel:${ContactInfo.tel}`}>
             <button className="rounded-full mt-2 font-semibold px-5 py-1 text-3xl duration-100 ease-in-out hover:translate-y-2 flex gap-2">
             <FiPhoneCall className='mt-1'/> {ContactInfo.No}
             </button>

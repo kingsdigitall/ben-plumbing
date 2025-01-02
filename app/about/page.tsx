@@ -116,7 +116,7 @@ const page = () => {
           </div>
           <div className="text-center mt-4 border-double">
             <button className={`bg-main hover:bg-minor shadow-lg rounded-lg py-3 px-4 tracking-wide mt-3     text-white font-bold`}>
-              <a href={`tel:${ContactInfo.tel}`}> {ContactInfo.No}</a>
+              <a id='cta-id' href={`tel:${ContactInfo.tel}`}> {ContactInfo.No}</a>
             </button>
           </div>
         </div>
