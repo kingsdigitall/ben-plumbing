@@ -123,7 +123,7 @@ const page = () => {
         {/* -----------------------------------------Conversation End------------------------ */}
         {/* all */}
         <div className="md:mx-20 mx-4 my-20">
-          <div className="text-2xl font-bold "><div className="flex justify-center gap-2 "><FaCrown className={`text-2xl text-main `} />Areas We Serve</div></div>
+          <div className="text-3xl font-bold "><div className="flex justify-center gap-2 "><FaCrown className={`text-2xl text-main `} />Areas We Serve</div></div>
           <div className=" mt-2 text-xl text-center" dangerouslySetInnerHTML={{ __html: contentData.areaweserveSection.description }}> 
             
           </div>

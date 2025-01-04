@@ -53,7 +53,7 @@ const Hero = () => {
         </div>
         {/* Section 1 */}
         {/* countUp */}
-        {/* <div className="mt-16 flex flex-wrap items-center justify-around gap-4 bg-main py-8 text-center text-2xl font-bold text-white  ">
+        {/* <div className="mt-16 flex flex-wrap items-center justify-around gap-4 bg-main py-8 text-center text-3xl font-bold text-white  ">
           <div className="">
             <CountUp end={35} /> Years Experience
           </div>
@@ -93,14 +93,14 @@ const Hero = () => {
           />
         </div>
         <div className=" flex w-full flex-col gap-3   ">
-          <h2 className="text-2xl font-bold">{homeData.h3}</h2>
+          <h2 className="text-3xl font-bold">{homeData.h3}</h2>
 
           <div
             className="mt-3  text-justify"
             dangerouslySetInnerHTML={{ __html: homeData?.p3 }}
           ></div>
           <a id='cta-id' href={`tel:${ContactInfo.tel}`} className="flex justify-center">
-            <button className="mt-6 rounded-lg bg-main px-6 py-2 text-xl font-bold text-white hover:translate-y-2 hover:bg-minor ">
+            <button id='cta-id' className="mt-6 rounded-lg bg-main px-6 py-2 text-xl font-bold text-white hover:translate-y-2 hover:bg-minor ">
               {ContactInfo.No}
             </button>
           </a>

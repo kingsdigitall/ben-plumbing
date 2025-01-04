@@ -28,8 +28,8 @@ const CounterCta = () => {
         Don’t let plumbing issues disrupt your day – Ben Franklin Plumbing is here to provide you with fast, reliable, and affordable solutions. Whether you&apos;re dealing with a leaky faucet, or clogged drain, or need a complete system overhaul, our team of expert plumbers in West Hartford, CT, is ready to serve you.
         </div>
         <div className="mt-6  gap-4 flex justify-center ">
-          <div className="flex flex-col text-lg  border px-4 py-2 bg-white rounded-md">
-            <div className=" font-bold text-main">
+          <div id='cta-id' className="flex flex-col text-lg  border px-4 py-2 bg-white rounded-md">
+            <div id='cta-id' className=" font-bold text-main">
               <a id='cta-id' href={`tel:${ContactInfo.tel}`}>{ContactInfo.No}</a>
             </div>
           </div>

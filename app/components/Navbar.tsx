@@ -51,7 +51,7 @@ const Navbar = () => {
             </ul>
             <div className="  hidden items-center justify-center lg:flex   ">
               <a id='cta-id' href={`tel:${ContactInfo.tel}`}>
-                <button className="flex items-center justify-center rounded bg-main px-2 py-2 text-sm font-bold text-white   duration-200 ease-in-out hover:border-2 hover:border-main hover:bg-white hover:text-black md:px-4">
+                <button id='cta-id' className="flex items-center justify-center rounded bg-main px-2 py-2 text-sm font-bold text-white   duration-200 ease-in-out hover:border-2 hover:border-main hover:bg-white hover:text-black md:px-4">
                   <FaPhoneVolume className="text-3xl " />
                   {ContactInfo.No}
                 </button>
