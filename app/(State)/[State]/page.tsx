@@ -19,6 +19,7 @@ import Guarantees from "@/app/components/Widgets/Guarantees";
 import ReviewWidget from "@/app/components/Widgets/ReviewWidget";
 import data from "@/components/Content/serviceWidgetContent.json";
 import Types from "@/app/components/Widgets/Types";
+import AreaWeServe from "@/app/components/Widgets/AreaWeServe";
 // import Service from "@/app/Components/Service";
 
 interface SubdomainPageProps {
@@ -65,6 +66,9 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
   // nity or db query us particular subdomain read data from database .... neeche theme nu pass hoyega and page render hojaega
   // Render subdomain-specific content
   const ContentData = cityData[State];
+  const slugs: any = Object.keys(cityData)
+  .filter((key) => key !== State)
+  .map((key) => cityData[key]);
   return (
     <div className="mx-auto max-w-[2100px] overflow-hidden">
       <Banner
@@ -331,6 +335,12 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
         </div>
       ) : null}
       {/* Top Sight */}
+       {/* Area we Serve */}
+       <div id="area-we-serve" className="pt-14 md:pt-28">
+        <h2 className={`  text-center text-3xl font-bold`}>Cities We Serve </h2>
+        <AreaWeServe slugs={slugs} />
+      </div>
+      {/* Area we Serve */}
       {/* Neighborhood */}
       {ContentData?.neighbourhoods ? (
         <div className="">
