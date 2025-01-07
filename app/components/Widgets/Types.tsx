@@ -5,7 +5,7 @@ import data from "@/components/Content/TypesWidgetContent.json";
 const Types = () => {
   return (
     <div className="mt-16 px-4 md:px-24">
-      <h2 className="text-center text-2xl font-extrabold text-main">
+      <h2 className="text-center text-3xl font-extrabold text-main">
         {data.title}
       </h2>
       <p className="mt-4 text-center text-lg">{data.p}</p>

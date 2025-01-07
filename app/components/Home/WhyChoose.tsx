@@ -5,7 +5,7 @@ const WhyChoose = ({data}:any) => {
     const items = data.whyChooseData
   return (
     <div className="mt-20 ">
-    <h2 className="text-center text-2xl font-extrabold">
+    <h2 className="text-center text-3xl font-extrabold">
       Why Choose{" "}
       <span className="text-main">{data.title}</span>
     </h2>
