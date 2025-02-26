@@ -72,30 +72,6 @@
     {
         "ques": "How quickly can you respond to a plumbing emergency?",
         "ans": "We offer 24/7 emergency plumbing services and strive to respond to urgent calls within the hour. Our team is always ready to help with any unexpected plumbing issue."
-    },
-    {
-        "ques": "What should I do if I have a burst pipe?",
-        "ans": "If you experience a burst pipe, immediately turn off the water supply to your home and contact us right away. Our experienced plumbers will arrive quickly to prevent further damage and fix the issue."
-    },
-    {
-        "ques": "How do I know if I need a plumbing inspection?",
-        "ans": "If you notice slow drains, water discoloration, or unusual noises from pipes, it may be time for a professional inspection. Regular inspections can help identify hidden issues before they become major problems."
-    },
-    {
-        "ques": "Do you offer plumbing services for both residential and commercial properties?",
-        "ans": "Yes, we provide plumbing services for both residential and commercial properties in the Greater Hartford area. Whether it's a small repair or a large-scale installation, we have you covered."
-    },
-    {
-        "ques": " Can you help with water heater installation and repairs?",
-        "ans": "Absolutely! We specialize in water heater installations, repairs, and replacements. Whether you need a traditional or tankless water heater, we can recommend the best option for your home or business."
-    },
-    {
-        "ques": "How often should I have my sewer lines cleaned?",
-        "ans": "We recommend having your sewer lines cleaned every 1-2 years to prevent clogs and ensure the system runs smoothly. If you notice any signs of backup or slow drainage, give us a call for an inspection."
-    },
-    {
-        "ques": "What are the signs that my water heater needs to be replaced?",
-        "ans": "Signs that your water heater may need to be replaced include frequent repairs, inconsistent water temperature, strange noises, and discolored water. If you notice any of these issues, it's best to schedule an inspection with our experts."
     }
 ],
   "testimonials":[
@@ -104,36 +80,6 @@
       "name": "Julia Rodriguez",
       "content":
         "After our roof was repaired by this team, I felt an incredible sense of relief. Their efficiency and expertise turned what could have been a major hassle into a smooth process. The quality of their work exceeded all my expectations!"
-    },
-    {
-      "id": 2,
-      "name": "Mary Robinson",
-      "content":
-        "From the initial consultation to the final inspection, the entire roofing project was handled with professionalism and care. I felt completely confident in their abilities, and the finished roof looks fantastic. Highly recommend their services!"
-    },
-    {
-      "id": 3,
-      "name": "David Clark",
-      "content":
-        "The team did an exceptional job on our roof replacement. Their attention to detail and commitment to quality were evident throughout the project. I’m so pleased with the results and grateful for their reliable service."
-    },
-    {
-      "id": 4,
-      "name": "Lisa Martinez",
-      "content":
-        "Working with them was a breeze! They handled our roof repair quickly and efficiently, and their friendly team made the whole experience stress-free. I couldn’t be happier with the outcome and their level of professionalism."
-    },
-    {
-      "id": 5,
-      "name": "Robert Harris",
-      "content":
-        "After the roof installation, I felt completely satisfied with the job. Their team was prompt, courteous, and did an excellent job. It’s great to have a roof over my head that I can trust to protect my home."
-    },
-    {
-      "id": 6,
-      "name": "Patricia Lewis",
-      "content":
-        "Their roofing service was top-notch from start to finish. They addressed all our concerns, worked diligently, and delivered outstanding results. I’m thrilled with the new roof and the peace of mind it brings."
     }
   ]
 }

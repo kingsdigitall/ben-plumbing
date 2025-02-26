@@ -20,6 +20,7 @@ import ReviewWidget from "@/app/components/Widgets/ReviewWidget";
 import data from "@/components/Content/serviceWidgetContent.json";
 import Types from "@/app/components/Widgets/Types";
 import AreaWeServe from "@/app/components/Widgets/AreaWeServe";
+import NavbarState from "./State/NavbarState";
 // import Service from "@/app/Components/Service";
 
 interface SubdomainPageProps {
@@ -67,9 +68,11 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
   // Render subdomain-specific content
   const ContentData = cityData[State];
   const slugs: any = Object.keys(cityData)
-  .filter((key) => key !== State)
-  .map((key) => cityData[key]);
+    .filter((key) => key !== State)
+    .map((key) => cityData[key]);
   return (
+    <div className="">
+      <NavbarState/>
     <div className="mx-auto max-w-[2100px] overflow-hidden">
       <Banner
         h1={ContentData.h1Banner}
@@ -98,9 +101,15 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
             className="mt-3  text-justify"
             dangerouslySetInnerHTML={{ __html: ContentData?.p2 }}
           ></div>
-          <a id='cta-id' href={`tel:${ContactInfo.tel}`} className="flex justify-center">
-            
-            <button id='cta-id' className="mt-6 rounded-lg bg-main px-6 py-2 text-xl font-bold text-white hover:translate-y-2 hover:bg-minor ">
+          <a
+            id="cta-id"
+            href={`tel:${ContactInfo.tel}`}
+            className="flex justify-center"
+          >
+            <button
+              id="cta-id"
+              className="mt-6 rounded-lg bg-main px-6 py-2 text-xl font-bold text-white hover:translate-y-2 hover:bg-minor "
+            >
               {ContactInfo.No}
             </button>
           </a>
@@ -120,7 +129,7 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
       {/* Section 2 */}
       {/* Service */}
       <div className="mt-14 md:mt-20">
-        <Types />
+        <Service vlaue={State} />
       </div>
       {/* Service */}
       {/* Cta */}
@@ -335,8 +344,8 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
         </div>
       ) : null}
       {/* Top Sight */}
-       {/* Area we Serve */}
-       <div id="area-we-serve" className="pt-14 md:pt-28">
+      {/* Area we Serve */}
+      <div id="area-we-serve" className="pt-14 md:pt-28">
         <h2 className={`  text-center text-3xl font-bold`}>Cities We Serve </h2>
         <AreaWeServe slugs={slugs} />
       </div>
@@ -410,12 +419,12 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
       ) : null}
       {/* Zip */}
       {/* FAQ */}
-      {ContentData?.faq ? <Faq data={ContentData?.faq} /> : null}
+      {ContentData?.faq ? <Faq  /> : null}
       {/* FAQ */}
       {/* CounterCta */}
       {/* CounterCta */}
       {/* Reviews */}
-      <ReviewWidget />
+      <ReviewWidget value={State}/>
       {/* {
         ContentData.reviews ? (
           <div className=" overflow-hidden  ">
@@ -439,6 +448,7 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
         </div>
       </div>
       {/* -----------------------------------------Map End---------------------------- */}
+    </div>
     </div>
   );
 }

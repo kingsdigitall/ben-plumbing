@@ -26,7 +26,6 @@ export default function RootLayout({
       <GoogleTagManager gtmId="GTM-W83TPMXW" />
       <body className={`w-full ${inter.className}`}>
         <div className="bg-white">
-          <Navbar />
           {children}
         </div>
         <Footer />
