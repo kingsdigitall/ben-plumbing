@@ -9,6 +9,7 @@ import Banner from "@/app/components/Home/Banner";
 import contentData from "@/components/Content/about.json"
 import ContactInfo from '@/components/Content/ContactInfo.json'
 import Affordable from "../components/Widgets/Affordable";
+import Navbar from "../components/Navbar";
 
 
 export const metadata: Metadata = {
@@ -24,6 +25,8 @@ const page = () => {
   const text = `text-[#f76610]`;
   const btn = `bg-[#f76610] hover:bg-[#191e34]`;
   return (
+    <div className="">
+<Navbar/>
     <div className="flex flex-col max-[1200px] justify-center items-center  bg-white text-black ">
       <div className="  cursor-default w-screen md:w-full  min-w-[375px] text-lg">
         {/* poster */}
@@ -153,6 +156,7 @@ const page = () => {
         </div> */}
         {/* -----------------------------------------Our Mission End------------------------ */}
       </div>
+    </div>
     </div>
   );
 };

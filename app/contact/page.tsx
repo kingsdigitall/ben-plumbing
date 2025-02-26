@@ -8,6 +8,7 @@ import Banner from "../components/Home/Banner";
 import contentData from "@/components/Content/contact.json";
 import ContactInfo from '@/components/Content/ContactInfo.json';
 import Page from "../components/Contact/Page";
+import Navbar from "../components/Navbar";
 
 export const metadata: Metadata = {
   title: {
@@ -23,6 +24,7 @@ const page = () => {
 
   return (
    <div className="">
+    <Navbar/>
     <Page/>
    </div>
   );

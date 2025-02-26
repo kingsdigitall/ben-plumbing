@@ -18,9 +18,12 @@ import CtaState from "../CtaState";
 import Service from '@/app/components/Home/Service'
 import Types from "../Widgets/Types";
 import ReviewWidget from "../Widgets/ReviewWidget";
+import Navbar from "../Navbar";
 
 const Hero = () => {
   return (
+    <div className="">
+      <Navbar/>
     <div className="w-screen md:flex  md:w-full md:flex-col md:items-center md:justify-center overflow-hidden">
       <div className="w-full overflow-hidden text-lg  print:hidden  dark:bg-white dark:text-black">
         {/* poster */}
@@ -70,7 +73,7 @@ const Hero = () => {
         </div> */}
         {/*  CountUp*/}
         {/* Section 2 */}
-        <Types />
+        <Service />
         
         {/* Section 2 */}
         {/* Cta */}
@@ -122,7 +125,7 @@ const Hero = () => {
         </div>
         {/* CTA */}
         {/* FAQ */}
-        <Faq data={homeData?.faq}/>
+        <Faq />
        
         {/* FAQ */}
         {/* Review */}
@@ -144,6 +147,7 @@ const Hero = () => {
         </div>
         {/* -----------------------------------------Map End---------------------------- */}
       </div>
+    </div>
     </div>
   );
 };

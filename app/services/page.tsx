@@ -3,8 +3,11 @@ import Banner from '../components/Home/Banner'
 import contentData from '@/components/Content/servicePage.json'
 import Service from '../components/Home/Service'
 import { Metadata } from 'next'
-import Types from '../components/Widgets/Types'
+import Navbar from '../components/Navbar'
+import { headers } from 'next/headers'
 import ContactInfo from '@/components/Content/ContactInfo.json'
+import Calculator from '../components/State/Calculator'
+
 
 export const metadata: Metadata = {
   title: {
@@ -16,7 +19,10 @@ export const metadata: Metadata = {
   },
 }
 const page = () => {
+
   return (
+    <div className="">
+    <Navbar/>
     <div>
      <Banner  h1={contentData.h1Banner}
           image={contentData.bannerImage}
@@ -25,9 +31,11 @@ const page = () => {
           {/* Content 1 */}
           <div className="">
             <div className="mt-20 text-minor text-4xl text-center">{contentData?.serviceTitle}</div>
-            <Types/>
+            <Service vlaue=""/>
+            {/* <Calculator/> */}
           </div>
           {/* Content 1 */}
+    </div>
     </div>
   )
 }
