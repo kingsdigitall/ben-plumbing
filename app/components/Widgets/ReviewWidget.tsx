@@ -1,11 +1,12 @@
 "use client";
+import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 import Testimonials from "@/components/Content/Reviews.json";
-import { headers } from "next/headers";
 import content from "@/components/Content/subDomainUrlContent.json";
+
 interface Review {
   id: number;
   name: string;
@@ -17,8 +18,14 @@ interface ReviewWidgetProps {
 }
 
 const ReviewWidget: React.FC<ReviewWidgetProps> = ({ value = "" }) => {
+  const [shuffledTestimonials, setShuffledTestimonials] = useState(Testimonials);
+
+  useEffect(() => {
+    // Shuffle testimonials on the client side after the component mounts
+    setShuffledTestimonials([...Testimonials].sort(() => 0.5 - Math.random()));
+  }, []);
+
   const contentData: { name: string } = content[value as keyof typeof content];
-  // console.log(value.split("-")[1])
   const abbrevation = value?.split("-").pop()?.toUpperCase();
   const StateName = contentData?.name
     ? abbrevation
@@ -63,33 +70,32 @@ const ReviewWidget: React.FC<ReviewWidgetProps> = ({ value = "" }) => {
       },
     ],
   };
+
   return (
-    <div className="relative  pb-10">
+    <div className="relative pb-10">
       <h2 className="text-first mb-10 mt-20 text-center text-3xl font-bold text-main">
         Testimonials
       </h2>
       <Slider {...settings}>
-        {Testimonials.sort(() => 0.5 - Math.random())
-          .slice(0, 6)
-          .map((item: any, index: number) => (
-            <div
-              className="relative mb-10 p-5  lg:h-80 lg:bg-main lg:text-white"
-              key={index + 1}
-            >
-              <div className="flex items-center justify-center">
-                <Image
-                  src="/5Star.png"
-                  alt="review"
-                  width={1000}
-                  height={500}
-                  className="w-40 "
-                />
-              </div>
-              <p className="mt-4 ">
-                {item.Review.split("[location]").join(StateName)}
-              </p>
+        {shuffledTestimonials.slice(0, 6).map((item: any, index: number) => (
+          <div
+            className="relative mb-10 p-5 lg:h-80 lg:bg-main lg:text-white"
+            key={index} // Use a unique identifier for the key
+          >
+            <div className="flex items-center justify-center">
+              <Image
+                src="/5Star.png"
+                alt="review"
+                width={1000}
+                height={500}
+                className="w-40"
+              />
             </div>
-          ))}
+            <div className="mt-4">
+              {item.Review.split("[location]").join(StateName)}
+            </div>
+          </div>
+        ))}
       </Slider>
     </div>
   );
