@@ -11,18 +11,16 @@ interface ServiceItem {
   description: string;
 }
 
-interface ServiceData {
-  title: string;
-  p: string;
-  lists: ServiceItem[];
-}
-
-const Service = ({value=""}: any) => {
+const Service = ({ value = "" }: any) => {
   // console.log(content[value]);
   const contentData: { name: string } = content[value as keyof typeof content];
   // console.log(value.split("-")[1])
- const abbrevation = value?.split("-").pop()?.toUpperCase(); 
-const StateName = contentData?.name ? (abbrevation ? `${contentData.name}, ${abbrevation}` : contentData.name) : "Connecticut";
+  const abbrevation = value?.split("-").pop()?.toUpperCase();
+  const StateName = contentData?.name
+    ? abbrevation
+      ? `${contentData.name}, ${abbrevation}`
+      : contentData.name
+    : "Connecticut";
   return (
     <div className=" px-4  md:px-10">
       <h2 className="text-first text-center text-3xl font-bold text-main">
@@ -54,11 +52,15 @@ const StateName = contentData?.name ? (abbrevation ? `${contentData.name}, ${abb
               className={`1 mt-4 flex justify-start gap-2  px-4  text-xl font-bold text-minor `}
             >
               <MdDoubleArrow className="text-bold text-3xl " />
-                <Link href={`/services/${items.slug}`}>{items.title.split("[location]").join(StateName)}</Link>
+              <Link href={`/services/${items.slug}`}>
+                {items.title.split("[location]").join(StateName)}
+              </Link>
             </h3>
             <div
               className=" p-4 text-justify text-base"
-              dangerouslySetInnerHTML={{ __html: items.description.split("[location]").join(StateName) }}
+              dangerouslySetInnerHTML={{
+                __html: items.description.split("[location]").join(StateName),
+              }}
             ></div>
           </div>
         ))}
@@ -82,7 +84,9 @@ const StateName = contentData?.name ? (abbrevation ? `${contentData.name}, ${abb
                 />
               </div>
               <h2 className="w-[75%]  text-lg font-bold text-main">
-                 <Link href={`/services/${items.slug}`}>{items.title.split("[location]").join(StateName)}</Link>
+                <Link href={`/services/${items.slug}`}>
+                  {items.title.split("[location]").join(StateName)}
+                </Link>
               </h2>
             </div>
           </div>
