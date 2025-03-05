@@ -47,12 +47,6 @@ const page = ({ params }: { params: { services: string } }) => {
           {/* who */}
           <div className="my-20 grid w-full grid-cols-1 items-center justify-center gap-6 px-8 md:grid-cols-2">
             <div className="flex flex-col justify-center">
-              <div className="text-">About </div>
-              <div className="text-3xl font-bold">
-                Who We Are?
-                <br />
-              </div>
-              <div className="mt-6"></div>
               <div
                 className="text-justify"
                 dangerouslySetInnerHTML={{

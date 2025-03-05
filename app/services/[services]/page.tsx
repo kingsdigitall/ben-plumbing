@@ -16,8 +16,8 @@ export function generateMetadata({ params }: { params: { services: string } }) {
   const subdomain = headersList.get("x-subdomain") 
   const Data: any = content[subdomain as keyof typeof content];
   return {
-    title: serviceData.title.split("[location]").join(Data?.name||"USA"),
-    description: serviceData.description.split("[location]").join(Data?.name||"USA"),
+    title: serviceData.title.split("[location]").join(Data?.name||"Connecticut"),
+    description: serviceData.description.split("[location]").join(Data?.name||"Connecticut"),
     alternates: {
       canonical: `https://${ContactInfo.host}/services/${params.services}`,
     },
@@ -36,7 +36,7 @@ const page = ({ params }: { params: { services: string } }) => {
       <NavbarState />
       <div className="">
         <Banner
-          h1={serviceData.title.split("[location]").join(Data?.name||"USA")}
+          h1={serviceData.title.split("[location]").join(Data?.name||"Connecticut")}
           image={"banner.jpg"}
           header=""
           p1={
@@ -47,16 +47,10 @@ const page = ({ params }: { params: { services: string } }) => {
           {/* who */}
           <div className="my-20 grid w-full grid-cols-1 items-center justify-center gap-6 px-8 md:grid-cols-2">
             <div className="flex flex-col justify-center">
-              <div className="text-">About </div>
-              <div className="text-3xl font-bold">
-                Who We Are?
-                <br />
-              </div>
-              <div className="mt-6"></div>
               <div
                 className="text-justify"
                 dangerouslySetInnerHTML={{
-                __html: serviceData.para1.split("[location]").join(Data?.name||"USA"),
+                __html: serviceData.para1.split("[location]").join(Data?.name||"Connecticut"),
                 }}
               >
               </div>

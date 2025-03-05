@@ -35,7 +35,7 @@ const page = () => {
     ? abbrevation
       ? `${contentDat.name}, ${abbrevation}`
       : contentDat.name
-    : "USA";
+    : "Connecticut";
   return (
     <div className="">
       <NavbarState />
