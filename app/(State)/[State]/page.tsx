@@ -75,7 +75,7 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
       <NavbarState/>
     <div className="mx-auto max-w-[2100px] overflow-hidden">
       <Banner
-        h1={ContentData.h1Banner}
+        h1={`${ContentData.h1Banner} ${ContentData.zipCodes && ContentData.zipCodes.split("|")[0]}`}
         image={ContentData.bannerImage}
         header={ContentData.bannerQuote}
         p1={ContentData.p1Banner}
