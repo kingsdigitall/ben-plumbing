@@ -16,18 +16,29 @@ const HourCta = () => {
               dangerouslySetInnerHTML={{ __html: data.title }}
             ></div>
             <a
-            id='cta-id'
+              id="cta-id"
               href={`tel:${ContactInfo.tel}`}
               className="flex    w-full justify-center px-0 md:text-4xl"
             >
-              <div id='cta-id' className="flex w-full items-center justify-center gap-6 md:w-fit md:justify-start  ">
+              <div
+                id="cta-id"
+                className="flex w-full items-center justify-center gap-6 md:w-fit md:justify-start  "
+              >
                 <FaPhoneSquareAlt className="text-7xl" />
 
-                <div id='cta-id' className="jsutify-center flex flex-col items-center  ">
-                  <div id='cta-id' className="jsutify-center flex items-center text-left text-xl">
+                <div
+                  id="cta-id"
+                  className="jsutify-center flex flex-col items-center  "
+                >
+                  <div
+                    id="cta-id"
+                    className="jsutify-center flex items-center text-left text-xl"
+                  >
                     CALL TODAY
                   </div>
-                  <div id='cta-id' className="mt-1 md:text-4xl ">{ContactInfo.No} </div>
+                  <div id="cta-id" className="mt-1 md:text-4xl ">
+                    {ContactInfo.No}{" "}
+                  </div>
                 </div>
               </div>
             </a>
