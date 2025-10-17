@@ -25,13 +25,13 @@ const Banner = ({
         height={900}
       />
       <div className="top-30  relative  flex h-full items-center gap-2 bg-gradient-to-r  from-[#000000f3] to-[#00000050] text-3xl text-white   md:px-12 md:text-[40px] w-full ">
-        <div className=" px-4 pt-4 font-bold leading-[50px] text-white md:mt-14 md:px-0 md:pt-20 text-center lg:pt-0  w-full" >
+        <div className=" px-4 pt-4 font-bold leading-[50px] text-white md:mt-14 md:px-0 md:pt-20 text-center lg:pt-0  w-full max-w-4xl mx-auto" >
           {" "}
           <div className=" w-full">
             {header && header} <br />{" "}
-            <h1 className={`inline text-white`}>{h1}</h1>
+            <h1 className={`inline text-white `}>{h1}</h1>
           </div>
-          <div className="mt-6 text-xl font-normal">{p1 && `${p1} `}</div>
+          <div className="mt-6 text-xl font-normal ">{p1 && `${p1} `}</div>
           <div className="lg:hidden flex flex-col items-center  md:flex-row md:gap-10 ">
             <a href={`tel:${ContactInfo.tel}`}>
               <button

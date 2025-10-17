@@ -57,7 +57,7 @@ const page = ({ params }: { params: { services: string } }) => {
             </div>
             <div className="w-full pt-10">
               <Image
-                src={`/plumber-in-blue-uniform-is-at-work.webp`}
+                src={`https://ik.imagekit.io/serviceproviders/benfranklinplumbersct.com/plumber-in-blue-uniform-is-at-work.webp?updatedAt=1759921525478`}
                 className="rounded-lg border object-cover shadow-lg h-80"
                 alt="plumber-in-blue-uniform-is-at-work"
                 width={1000}

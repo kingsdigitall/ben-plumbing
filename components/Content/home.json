@@ -1,13 +1,13 @@
 {
   "metaTitle": "Reliable Plumbing Solutions in Connecticut | Ben Franklin Plumbing",
-  "metaDescription": " Looking for reliable plumbing services in Connecticut? Ben Franklin Plumbing offers expert repairs, installations, and emergency services.", 
+  "metaDescription": " Looking for reliable plumbing services in Connecticut? Ben Franklin Plumbing offers expert repairs, installations, and emergency services. Contact us today at (833) 391-3581.", 
   "bannerQuote": "",
   "bannerImage": "banner.jpg",
   "h1Banner": "Top-Rated Plumbing Services in Connecticut",
   "p1Banner": " Fast, Reliable, and Affordable Plumbing Solutions for Your Home and Business",
   "h2": "Expert Plumbing Services for Residential and Commercial Properties in Connecticut.",
   "p2": "At Ben Franklin Plumbing, we’ve proudly served the Connecticut area for over 15 years. Our skilled team of licensed and insured plumbers is committed to delivering exceptional plumbing services with honesty, professionalism, and reliability. Whether you need help with a clogged drain or a full plumbing system overhaul, we’re here to ensure the job is done right the first time.<br/><br/>We understand that plumbing issues can be stressful, so we aim to provide quick, efficient, and cost-effective solutions. When you choose Ben Franklin Plumbing, you choose peace of mind and trusted service backed by years of experience.",
-  "h2Image": "tools-case-top-view-of-seniour-plumber-repairing.webp",
+  "h2Image": "https://ik.imagekit.io/serviceproviders/benfranklinplumbersct.com/tools-case-top-view-of-seniour-plumber-repairing.webp?updatedAt=1759921525695",
   "reviewTtile": "Testimonials",
   "processSection": {
     "title": "Our Process",
@@ -67,7 +67,7 @@
   },
   "h3": "Need Plumbing Help? Call Ben Franklin Plumbing Today!",
   "p3": "Don’t let plumbing issues disrupt your day. Whether it's a leaking pipe, clogged drain, or emergency repair, Ben Franklin Plumbing is here to provide fast, reliable, and affordable solutions. Our expert team is ready to tackle any plumbing challenge with precision and care. Call now to schedule your service and experience top-notch customer support. With 24/7 emergency services, we’re always here when you need us most. Don’t wait—get your plumbing problems fixed today!",
-  "h3Image": "side-view-man-working-as-plumber-min.jpg",
+  "h3Image": "https://ik.imagekit.io/serviceproviders/benfranklinplumbersct.com/side-view-man-working-as-plumber-min.jpg?updatedAt=1759923041665",
   "faq": [
     {
         "ques": "How quickly can you respond to a plumbing emergency?",
@@ -81,5 +81,6 @@
       "content":
         "After our roof was repaired by this team, I felt an incredible sense of relief. Their efficiency and expertise turned what could have been a major hassle into a smooth process. The quality of their work exceeded all my expectations!"
     }
-  ]
+  ],
+  "hourCtaWidgetTitle": "Schedule Your Plumbing Repairs and Installations with Us"
 }

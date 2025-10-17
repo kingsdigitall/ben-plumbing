@@ -1,8 +1,10 @@
 {
     "No": "(833) 391-3581",
     "tel": "8333913581",
-    "mail":"",
+    "mail":"ben@benfranklinplumbersct.com",
     "baseUrl":"https://benfranklinplumbersct.com/",
     "host":"benfranklinplumbersct.com",
-    "name":"Ben Franklin Plumbing"
+    "name":"Ben Franklin Plumbing",
+    "service":"Plumbing Services",
+    "location":"Connecticut"
 }

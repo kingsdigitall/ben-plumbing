@@ -9,7 +9,6 @@ import { Metadata } from "next";
 import ReviewSlider from "@/app/components/ReviewSlider";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import CtaState from "@/app/components/CtaState";
-import ServiceSlider from "@/app/components/Home/ServiceSlider";
 import CtaWidget from "@/app/components/CtaWidget";
 import ZipAndNeighAccordian from "@/app/components/Home/ZipAndNeighAccordian";
 import Faq from "@/app/components/Home/Faq";
@@ -17,7 +16,6 @@ import CounterCta from "@/app/components/Widgets/CounterCta";
 import HourCta from "@/app/components/Home/HourCta";
 import Guarantees from "@/app/components/Widgets/Guarantees";
 import ReviewWidget from "@/app/components/Widgets/ReviewWidget";
-import data from "@/components/Content/serviceWidgetContent.json";
 import Types from "@/app/components/Widgets/Types";
 import AreaWeServe from "@/app/components/Widgets/AreaWeServe";
 import NavbarState from "./State/NavbarState";
@@ -70,15 +68,87 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
   const slugs: any = Object.keys(cityData)
     .filter((key) => key !== State)
     .map((key) => cityData[key]);
+
+    const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      name: `${ContactInfo.name}`,
+      image: `https://ik.imagekit.io/serviceproviders/benfranklinplumbersct.com/plumber-in-blue-uniform-is-at-work.webp?updatedAt=1759921525478`,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: `${ContentData?.name} ${ContactInfo.service}`,
+        addressLocality: `${ContentData?.name}`,
+        addressRegion: `${State}`,
+        postalCode: "",
+        addressCountry: "US",
+      },
+      review: {
+        "@type": "Review",
+        reviewRating: {
+        "@type": "Rating",
+        ratingValue: "4.9",
+        bestRating: "5",
+        },
+        author: {
+        "@type": "Person",
+        name: `${ContentData?.name} ${ContactInfo.service}`,
+        },
+      },
+      telephone: ContactInfo.No,
+      openingHoursSpecification: {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        opens: "09:00",
+        closes: "20:00",
+      },
+      },
+      {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      name: `${ContactInfo.service} in ${ContentData?.name}, ${State}`,
+      brand: {
+        "@type": "Brand",
+        name: `${ContactInfo.service} ${ContentData?.name}, ${State} Pros`,
+      },
+      description: `${ContentData?.metaDescription}`,
+      url: `https://${State}.${ContactInfo.host}`,
+      aggregateRating: {
+        "@type": "AggregateRating",
+        reviewCount: 7,
+        ratingValue: 4.802,
+      },
+      },
+      {
+      "@type": "FAQPage",
+      mainEntity:
+        ContentData.faq?.map((faq: any) => ({
+        "@type": "Question",
+        name: faq?.ques,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: faq?.ans,
+        },
+        })) || [],
+      },
+    ],
+    };
   return (
     <div className="">
+      {/* Add JSON-LD to your page */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       <NavbarState/>
     <div className="mx-auto max-w-[2100px] overflow-hidden">
       <Banner
         h1={`${ContentData.h1Banner} ${ContentData.zipCodes && ContentData.zipCodes.split("|")[0]}`}
         image={ContentData.bannerImage}
         header={ContentData.bannerQuote}
-        p1={ContentData.p1Banner}
+        p1={ContentData.metaDescription}
       />
       {/* Section 1 */}
       {/* <p>{subDomain.map((item:any)=>(
@@ -89,7 +159,7 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
           <Image
             height={1000}
             width={1000}
-            src={`/${ContentData?.h2Image}`}
+            src={`${ContentData?.h2Image}`}
             className="h-[400px] w-full  rounded-lg object-cover shadow-lg"
             alt={ContentData?.h2Image.split(".")[0]}
           />
@@ -187,7 +257,7 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
             <Image
               height={10000}
               width={10000}
-              src={`/${ContentData.h5Image}`}
+              src={`${ContentData.h5Image}`}
               className=" h-full w-full rounded-lg object-cover shadow-lg"
               alt={ContentData.h5Image.split(".")[0]}
               title={ContentData.h5Image.split(".")[0]}
@@ -350,14 +420,15 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
         <AreaWeServe slugs={slugs} />
       </div>
       {/* Area we Serve */}
-      {/* Neighborhood */}
+       {/* Neighborhood */}
       {ContentData?.neighbourhoods ? (
         <div className="">
           <div className="block border px-4 md:hidden">
             <ZipAndNeighAccordian
               ques={`Neighborhoods we serve in  ${ContentData?.name}`}
-              ans={ContentData?.neighbourhoods.split("|")}
+              ans={ContentData?.neighbourhoods?.split("|")}
               slug={ContentData?.slug}
+              neighborhood={true}
             />
           </div>
           <div className="mt-28 hidden items-center justify-start md:mx-40 md:block ">
@@ -367,16 +438,21 @@ export default function SubdomainPage({ params }: SubdomainPageProps) {
               </p>
             </div>
             <div className="mx-10 mt-4 flex h-fit w-auto flex-wrap justify-center gap-4">
-              {ContentData?.neighbourhoods.split("|").map((item: any) => (
+              {ContentData?.neighbourhoods?.split("|").map((item: any) => (
                 <div className="" key={item}>
-                  <a
-                    target="_blank"
-                    href={`https://www.google.com/maps/search/?api=1&query=${item}, ${ContentData?.slug},`}
+                  <Link
+                    href={`/${
+                      item
+                        .trim()
+                        .toLowerCase()
+                        .replace(/\.+$/, "") // remove trailing dots
+                        .replace(/\s+/g, "-") // replace spaces with hyphens
+                    }`}
                   >
                     <p className="border bg-minor px-2 py-1 text-white duration-100 ease-in-out hover:text-main">
                       {item}
                     </p>
-                  </a>
+                  </Link>
                 </div>
               ))}
             </div>
