@@ -40,9 +40,9 @@ const Service = ({ value = "" }: any) => {
             <div className="flex h-60 justify-center object-cover">
               <Image
                 aria-hidden="true"
-                src={`/${items.imageUrl}`}
-                alt={`${items.imageUrl.split(".")[0]}`}
-                title={`${items.imageUrl.split(".")[0]}`}
+                src={`${items.imageUrl}`}
+                alt={`${items.imageUrl.split("/")[5]}`}
+                title={`${items.imageUrl.split("/")[5]}`}
                 width="900"
                 height="550"
                 className="object-cover"
@@ -75,7 +75,7 @@ const Service = ({ value = "" }: any) => {
               <div className="h-14 w-14 overflow-hidden rounded-full object-cover">
                 <Image
                   aria-hidden="true"
-                  src={`/${items.imageUrl}`}
+                  src={`${items.imageUrl}`}
                   alt={`${items.imageUrl.split(".")}`}
                   title={`${items.imageUrl.split(".")}`}
                   width="900"
@@ -83,11 +83,11 @@ const Service = ({ value = "" }: any) => {
                   className="h-14 w-14 object-cover "
                 />
               </div>
-              <h2 className="w-[75%]  text-lg font-bold text-main">
+              <div className="w-[75%]  text-lg font-bold text-main">
                 <Link href={`/services/${items.slug}`}>
                   {items.title.split("[location]").join(StateName)}
                 </Link>
-              </h2>
+              </div>
             </div>
           </div>
         ))}

@@ -37,7 +37,7 @@ export function generateMetadata({ params }: { params: { services: string } }) {
     title: {
       absolute: contentData.h1Banner,
     },
-    description: `Need plumbing services in ${Data.name}? Contact VR Plumbing for quick, reliable service and affordable rates. Call us or request a quote today!`,
+    description: `Need plumbing services in ${Data.name}? Contact Ben Franklin Plumbing for quick, reliable service and affordable rates. Contact us today at (833) 391-3581 or request a quote today!`,
     alternates: {
       canonical: `https://${Data.slug}.${ContactInfo.host}/about`,
     },
@@ -71,7 +71,7 @@ const Page = async () => {
             h1={contentData.h1Banner}
             image={contentData.bannerImage}
             header={contentData.bannerQuote}
-            p1={`Need plumbing services in ${Data.name}? Contact VR Plumbing for quick, reliable service and affordable rates. Call us or request a quote today!`}
+            p1={`Need plumbing services in ${Data.name}? Contact Ben Franklin Plumbing for quick, reliable service and affordable rates. Contact us today at (833) 391-3581 or request a quote today!`}
           />
           {/* poster */}
           {/* -----------------------------------------About Start------------------------ */}
@@ -94,7 +94,7 @@ const Page = async () => {
               </div>
               <div className="w-full pt-10">
                 <Image
-                  src={`/${contentData.h2Image}`}
+                  src={`${contentData.h2Image}`}
                   className="rounded-lg border object-cover shadow-lg"
                   alt={contentData.h2Image.split(".")[0]}
                   width={1000}

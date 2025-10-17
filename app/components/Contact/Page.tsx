@@ -19,7 +19,7 @@ const Page = () => {
           h1={contentData.h1Banner}
           image={contentData.bannerImage}
           header={contentData?.bannerQuote}
-          p1={contentData.p1Banner}
+          p1={contentData.metaDescription}
         />
         {/* Poster */}
 
@@ -28,7 +28,7 @@ const Page = () => {
           <div className="md:px-20 px-4 mt-10">
             <div className="gap-6  mt-10 grid grid-cols-1 md:grid-cols-2 items-center">
               <Image
-                src={`/${contentData.h2Image}`}
+                src={`${contentData.h2Image}`}
                 width={500}
                 height={400}
                 alt={contentData.h2Image.split(".")[0]}
@@ -59,18 +59,18 @@ const Page = () => {
         </div>
         {/* Content1 */}
 
-        {/* Let's Start a Conversation */}
+         {/* Let's Start a Conversation */}
         <div className="mt-16">
-          <div className="text-main text-4xl font-extrabold text-center">
-            Let&apos;s Start a Conversation
+          <div className="text-center text-4xl font-extrabold text-main">
+            Have a business enquiry? Contact us today!
           </div>
-          <div className="text-center border-double">
-            <a id='cta-id' href={`tel:${ContactInfo.tel}`}>
+          <div className="border-double text-center">
+            <a id="cta-id" href={`mailto:${ContactInfo.mail}`}>
               <button
-              id='cta-id'
-                className="bg-main hover:bg-minor shadow-lg rounded-lg py-3 px-4 tracking-wide mt-3 text-white font-bold"
+                id="cta-id"
+                className="mt-3 rounded-lg bg-main px-4 py-3 font-bold tracking-wide text-white shadow-lg hover:bg-minor"
               >
-                {ContactInfo.No}
+                {ContactInfo.mail}
               </button>
             </a>
           </div>
@@ -90,7 +90,7 @@ const Page = () => {
           </div>
           <div>
             <Image
-              src={`/${contentData.h3Image}`}
+              src={`${contentData.h3Image}`}
               className="border rounded-lg w-full h-[350px] shadow-lg object-cover"
               alt={contentData.h3Image.split(".")[0]}
               width={1000}
@@ -104,8 +104,8 @@ const Page = () => {
         <div className="xl:w-full w-11/12 mx-4 md:mx-0 mt-16 md:mb-4 px-10 flex flex-col gap-6 md:flex-row justify-center items-center group md:space-x-2">
           <Image
             aria-hidden="true"
-            src="/img1.png"
-            alt="Calling icon Star dryer vent"
+            src="https://ik.imagekit.io/serviceproviders/benfranklinplumbersct.com/img1.png?updatedAt=1759921525032"
+            alt="Calling icon"
             width={200}
             height={200}
             className="group-hover:-translate-y-4 ease-in duration-300"

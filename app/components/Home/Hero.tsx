@@ -13,7 +13,6 @@ import { MdOutlinePhoneCallback } from "react-icons/md";
 import ReviewSlider from "@/app/components/ReviewSlider";
 import homeData from "@/components/Content/home.json";
 import Faq from "./Faq";
-import ServiceSlider from "@/app/components/Home/ServiceSlider";
 import CtaState from "../CtaState";
 import Service from '@/app/components/Home/Service'
 import Types from "../Widgets/Types";
@@ -31,7 +30,7 @@ const Hero = () => {
           h1={homeData.h1Banner}
           image={homeData.bannerImage}
           header={homeData.bannerQuote}
-          p1={homeData.p1Banner}
+          p1={homeData.metaDescription}
         />
         {/* poster */}
         {/* Section 1 */}
@@ -47,7 +46,7 @@ const Hero = () => {
             <Image
               height={10000}
               width={10000}
-              src={`/${homeData.h2Image}`}
+              src={`${homeData.h2Image}`}
               className=" h-full w-full rounded-lg object-cover shadow-lg"
               alt={homeData.h2Image.split(".")[0]}
               title={homeData.h2Image.split(".")[0]}
@@ -90,7 +89,7 @@ const Hero = () => {
           <Image
             height={1000}
             width={1000}
-            src={`/${homeData?.h3Image}`}
+            src={`${homeData?.h3Image}`}
             className="h-[400px] w-full  rounded-lg object-cover shadow-lg"
             alt={homeData?.h3Image.split(".")[0]}
           />

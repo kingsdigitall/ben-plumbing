@@ -31,7 +31,7 @@ export function generateMetadata({ params }: { params: { services: string } }) {
     title: {
       absolute: contentData.h1Banner,
     },
-    description: `Need plumbing services in ${Data.name}? Contact VR Plumbing for quick, reliable service and affordable rates. Call us or request a quote today!`,
+    description: `Need plumbing services in ${Data.name}? Contact Ben Franklin Plumbing for quick, reliable service and affordable rates. Contact us today at (833) 391-3581 or request a quote today!`,
     alternates: {
       canonical: `https://${Data.slug}.${ContactInfo.host}/contact`,
     },
@@ -62,7 +62,7 @@ const page = () => {
             h1={contentData.h1Banner}
             image={contentData.bannerImage}
             header={contentData?.bannerQuote}
-            p1={`Need plumbing services in ${Data.name}? Contact VR Plumbing for quick, reliable service and affordable rates. Call us or request a quote today!`}
+            p1={`Need plumbing services in ${Data.name}? Contact Ben Franklin Plumbing for quick, reliable service and affordable rates. Contact us today at (833) 391-3581 or request a quote today!`}
           />
           {/* poster */}
           {/* -----------------------------------------button Start------------------------ */}
@@ -86,14 +86,14 @@ const page = () => {
             </div>
           </div>
         </div> */}
-          {/* -----------------------------------------button End------------------------ */}
+          {/* --------------------------B---------------button End------------------------ */}
           {/* Content1 */}
-          <div className="flex    items-center justify-center ">
+          <div className="flex items-center justify-center ">
             <div className="mt-10 px-4  md:px-20">
               <div className="  mt-10 gap-6 md:flex  ">
                 <Image
                   className="rounded-lg border object-cover shadow-lg"
-                  src={`/${contentData.h2Image}`}
+                  src={`${contentData.h2Image}`}
                   width={500}
                   height={400}
                   alt={contentData.h2Image.split(".")[0]}
@@ -126,17 +126,18 @@ const page = () => {
           {/* Content1 */}
           {/* -----------------------------------------a Conversation Start ------------------------ */}
           <div className="">
+            {/* Let's Start a Conversation */}
             <div className="mt-16">
-              <div className={`text-center text-4xl font-extrabold text-main`}>
-                Let&apos;s Start a Conversation
+              <div className="text-center text-4xl font-extrabold text-main">
+                Have a business enquiry? Contact us today!
               </div>
-              <div className="border-double  text-center">
-                <a id="cta-id" href={`tel:${ContactInfo.tel}`}>
+              <div className="border-double text-center">
+                <a id="cta-id" href={`mailto:${ContactInfo.mail}`}>
                   <button
                     id="cta-id"
-                    className={` mt-3 rounded-lg bg-main px-4 py-3 font-bold tracking-wide text-white     shadow-lg hover:bg-minor`}
+                    className="mt-3 rounded-lg bg-main px-4 py-3 font-bold tracking-wide text-white shadow-lg hover:bg-minor"
                   >
-                    {ContactInfo.No}
+                    {ContactInfo.mail}
                   </button>
                 </a>
               </div>
@@ -158,7 +159,7 @@ const page = () => {
               </div>
               <div className="">
                 <Image
-                  src={`/${contentData.h3Image}`}
+                  src={`${contentData.h3Image}`}
                   className="h-[350px] w-full rounded-lg border object-cover  shadow-lg"
                   alt={contentData.h3Image.split(".")[0]}
                   width={1000}
@@ -170,8 +171,8 @@ const page = () => {
             <div className="group mx-4 mt-16 flex w-11/12 flex-col items-center justify-center gap-6 px-10 md:mx-0 md:mb-4 md:flex-row md:space-x-2 xl:w-full  ">
               <Image
                 aria-hidden="true"
-                src="/img1.png"
-                alt="Calling icon Star dryer vent"
+                src="https://ik.imagekit.io/serviceproviders/benfranklinplumbersct.com/img1.png?updatedAt=1759921525032"
+                alt="Calling icon "
                 width="200"
                 height="200"
                 className="duration-300  ease-in group-hover:-translate-y-4"

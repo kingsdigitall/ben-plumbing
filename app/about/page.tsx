@@ -34,7 +34,7 @@ const page = () => {
           h1={contentData.h1Banner}
           image={contentData.bannerImage}
           header={contentData.bannerQuote}
-          p1={contentData.p1Banner}
+          p1={contentData.metaDescription}
         />
         {/* poster */}
         {/* -----------------------------------------About Start------------------------ */}
@@ -53,7 +53,7 @@ const page = () => {
             </div>
             <div className="w-full pt-10">
               <Image
-                src={`/${contentData.h2Image}`}
+                src={`${contentData.h2Image}`}
                 className="border rounded-lg shadow-lg  object-cover "
                 alt={contentData.h2Image.split(".")[0]}
                 width={1000}

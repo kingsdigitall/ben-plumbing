@@ -12,7 +12,7 @@ export async function GET() {
   const ServiceURL = ServiceSlug.map(
     (location) => `
     <url>
-      <loc>${baseUrl}services/${location}/</loc>
+      <loc>${baseUrl}services/${location}</loc>
       <lastmod>${new Date().toISOString()}</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.7</priority>
@@ -29,19 +29,25 @@ export async function GET() {
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>${baseUrl}about/</loc>
+    <loc>${baseUrl}about</loc>
     <lastmod>${new Date().toISOString()}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>${baseUrl}contact/</loc>
+    <loc>${baseUrl}contact</loc>
     <lastmod>${new Date().toISOString()}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>${baseUrl}services/</loc>
+    <loc>${baseUrl}our-brands</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>${baseUrl}services</loc>
     <lastmod>${new Date().toISOString()}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
