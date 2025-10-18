@@ -5,7 +5,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import data from "@/components/Content/faq.json";
+import data from "@/components/Content/Faq.json";
 import { headers } from "next/headers";
 import content from "@/components/Content/subDomainUrlContent.json";
 
